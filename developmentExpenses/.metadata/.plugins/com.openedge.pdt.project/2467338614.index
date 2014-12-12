@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/dlcv114/gui/adeweb.pl" type="ProcedureLibrary" ModificationStamp="1415113393173" FullName="adeweb.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="adeweb">
+			<procedure name="_abrunwb" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="42" RelativePath="adeweb"></procedure>
+			<procedure name="_automap" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="10036" RelativePath="adeweb"></procedure>
+			<procedure name="_brwsmap" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="159350" RelativePath="adeweb"></procedure>
+			<procedure name="_bstname" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="305049" RelativePath="adeweb"></procedure>
+			<procedure name="_cdread" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="409863" RelativePath="adeweb"></procedure>
+			<procedure name="_chkdtf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="584339" RelativePath="adeweb"></procedure>
+			<procedure name="_chkfld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="685927" RelativePath="adeweb"></procedure>
+			<procedure name="_cihttp" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="792806" RelativePath="adeweb"></procedure>
+			<procedure name="_comwrap" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="838168" RelativePath="adeweb"></procedure>
+			<procedure name="_dbfsel" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="927829" RelativePath="adeweb"></procedure>
+			<procedure name="_drwhtml" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="1091309" RelativePath="adeweb"></procedure>
+			<procedure name="_find-db" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="1224024" RelativePath="adeweb"></procedure>
+			<procedure name="_gendefs" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="1229181" RelativePath="adeweb"></procedure>
+			<procedure name="_genrt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="1392712" RelativePath="adeweb"></procedure>
+			<procedure name="_gentt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="1508562" RelativePath="adeweb"></procedure>
+			<procedure name="_genweb" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="1620008" RelativePath="adeweb"></procedure>
+			<procedure name="_genwpg" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="1786912" RelativePath="adeweb"></procedure>
+			<procedure name="_htmlcol" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="1992396" RelativePath="adeweb"></procedure>
+			<procedure name="_joinext" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="2040947" RelativePath="adeweb"></procedure>
+			<procedure name="_loadhtm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="2198389" RelativePath="adeweb"></procedure>
+			<procedure name="_mkwind" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="2291926" RelativePath="adeweb"></procedure>
+			<procedure name="_offproc" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="2416012" RelativePath="adeweb"></procedure>
+			<procedure name="_preproc" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="2521819" RelativePath="adeweb"></procedure>
+			<procedure name="_qbuild" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="2674651" RelativePath="adeweb"></procedure>
+			<procedure name="_rddefs" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="2790167" RelativePath="adeweb"></procedure>
+			<procedure name="_rdoffd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="2939346" RelativePath="adeweb"></procedure>
+			<procedure name="_rdoffp" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3044922" RelativePath="adeweb"></procedure>
+			<procedure name="_rdproc" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3160632" RelativePath="adeweb"></procedure>
+			<procedure name="_rdqury" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3277528" RelativePath="adeweb"></procedure>
+			<procedure name="_readrt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3421902" RelativePath="adeweb"></procedure>
+			<procedure name="_rsdoatt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3567343" RelativePath="adeweb"></procedure>
+			<procedure name="_rsdocol" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3574418" RelativePath="adeweb"></procedure>
+			<procedure name="_runbrws" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3581038" RelativePath="adeweb"></procedure>
+			<procedure name="_trimdsc" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3587987" RelativePath="adeweb"></procedure>
+			<procedure name="_unmapal" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3592608" RelativePath="adeweb"></procedure>
+			<procedure name="_webcom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3699212" RelativePath="adeweb"></procedure>
+			<procedure name="_webfile" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3868820" RelativePath="adeweb"></procedure>
+			<procedure name="_wsaerr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeweb.pl" isInsidePL="true" Offset="3966398" RelativePath="adeweb"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/developmentExpenses/ebis" type="PathEntry" ModificationStamp="1415113393141" FullName="ebis" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path=".mobileapps/ebisMobile/src">
+			<procedure name="home" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/ebisMobile/src/home.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/ebisMobile/src/home.r"></procedure>
+			<procedure name="index" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/ebisMobile/src/index.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/ebisMobile/src/index.r"></procedure>
+		</relative>
+		<relative path=".mobileapps/OpenExpenses/src">
+			<procedure name="home" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/OpenExpenses/src/home.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/OpenExpenses/src/home.r"></procedure>
+			<procedure name="index" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/OpenExpenses/src/index.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/OpenExpenses/src/index.r"></procedure>
+		</relative>
+		<relative path="RESTContent/static">
+			<procedure name="home" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/home.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/home.r"></procedure>
+		</relative>
+		<relative path=".mobileapps/ebisMobile/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2">
+			<procedure name="test" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/ebisMobile/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2/test.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/ebisMobile/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2/test.r"></procedure>
+		</relative>
+		<relative path=".mobileapps/ebisApp/src">
+			<procedure name="home" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/ebisApp/src/home.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/ebisApp/src/home.r"></procedure>
+			<procedure name="index" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/ebisApp/src/index.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/ebisApp/src/index.r"></procedure>
+		</relative>
+		<relative path="RESTContent/static/error">
+			<procedure name="error401" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error401.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error401.r"></procedure>
+			<procedure name="error403" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error403.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error403.r"></procedure>
+			<procedure name="error404" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error404.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error404.r"></procedure>
+			<procedure name="error500" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error500.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error500.r"></procedure>
+			<procedure name="error503" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error503.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/error/error503.r"></procedure>
+		</relative>
+		<relative path=".mobileapps/ebisMobile/src/files/resources/lib/datepick">
+			<procedure name="datepickBasics" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/ebisMobile/src/files/resources/lib/datepick/datepickBasics.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/ebisMobile/src/files/resources/lib/datepick/datepickBasics.r"></procedure>
+		</relative>
+		<relative path=".mobileapps/ebisApp/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2">
+			<procedure name="test" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/ebisApp/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2/test.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/ebisApp/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2/test.r"></procedure>
+		</relative>
+		<relative path=".mobileapps/OpenExpenses/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2">
+			<procedure name="test" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/OpenExpenses/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2/test.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/OpenExpenses/src/files/resources/lib/jquery/plugins/bgiframe_2.1.2/test.r"></procedure>
+		</relative>
+		<relative path=".mobileapps/OpenExpenses/src/files/resources/lib/datepick">
+			<procedure name="datepickBasics" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/OpenExpenses/src/files/resources/lib/datepick/datepickBasics.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/OpenExpenses/src/files/resources/lib/datepick/datepickBasics.r"></procedure>
+		</relative>
+		<relative path=".mobileapps/ebisApp/src/files/resources/lib/datepick">
+			<procedure name="datepickBasics" SourceFilePath="C:/developmentExpenses/ebis/.mobileapps/ebisApp/src/files/resources/lib/datepick/datepickBasics.html" RfilePath="C:/developmentExpenses/ebis/.mobileapps/ebisApp/src/files/resources/lib/datepick/datepickBasics.r"></procedure>
+		</relative>
+		<relative path="RESTContent/static/auth">
+			<procedure name="login" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/auth/login.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/auth/login.r"></procedure>
+			<procedure name="loginfail" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/auth/loginfail.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/auth/loginfail.r"></procedure>
+			<procedure name="logout" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/static/auth/logout.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/static/auth/logout.r"></procedure>
+		</relative>
+		<relative path="RESTContent">
+			<procedure name="index" SourceFilePath="C:/developmentExpenses/ebis/RESTContent/index.html" RfilePath="C:/developmentExpenses/ebis/RESTContent/index.r"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+		<pacakage name="">
+			<class name="testMobile" SourceFilePath="C:/developmentExpenses/ebis/testMobile.cls" RfilePath="C:/developmentExpenses/ebis/testMobile.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages=""></class>
+		</pacakage>
+		<pacakage name="AppServer">
+			<class name="AppServer.Claims" SourceFilePath="C:/developmentExpenses/ebis/AppServer/Claims.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/Claims.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+			<class name="AppServer.SecurityTokenService" SourceFilePath="C:/developmentExpenses/ebis/AppServer/SecurityTokenService.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/SecurityTokenService.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages=""></class>
+			<class name="AppServer.getFields" SourceFilePath="C:/developmentExpenses/ebis/AppServer/getFields.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/getFields.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+			<class name="AppServer.getGroups" SourceFilePath="C:/developmentExpenses/ebis/AppServer/getGroups.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/getGroups.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+			<class name="AppServer.getTypes" SourceFilePath="C:/developmentExpenses/ebis/AppServer/getTypes.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/getTypes.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

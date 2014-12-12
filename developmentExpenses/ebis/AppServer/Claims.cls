@@ -1,0 +1,290 @@
+ 
+ /*------------------------------------------------------------------------
+    File        : Claims
+    Syntax      : 
+    Author(s)   : Administrator
+    Created     : Wed Sep 25 14:18:27 BST 2013
+    Notes       : 
+  ----------------------------------------------------------------------*/
+
+@program FILE(name="Claims.cls", module="AppServer").
+@openapi.openedge.export FILE(type="REST", executionMode="singleton", useReturnValue="false", writeDataSetBeforeImage="false").
+@progress.service.resource FILE(name="Claims", URI="/Claims", schemaName="eClaims", schemaFile="ebis/AppServer/dseClaims.i").
+ 
+USING Progress.Json.ObjectModel.JsonObject.
+USING Progress.Json.ObjectModel.JsonArray.
+USING Progress.Lang.*.
+
+ROUTINE-LEVEL ON ERROR UNDO, THROW.
+  
+CLASS AppServer.Claims INHERITS BusinessEntity:
+
+    /*------------------------------------------------------------------------------
+            Purpose:                                                                      
+            Notes:                                                                        
+    ------------------------------------------------------------------------------*/
+    
+     
+    {"dseClaims.i"} 
+    {"ttLines.i"}
+
+    /*------------------------------------------------------------------------------
+            Purpose:  Get one or more records, based on a filter string                                                                     
+            Notes:                                                                        
+    ------------------------------------------------------------------------------*/
+    @openapi.openedge.export(type="REST", useReturnValue="false", writeDataSetBeforeImage="false").
+    @progress.service.resourceMapping(type="REST", operation="read", URI="?filter=~{filter~}", alias="", mediaType="application/json"). 
+    METHOD PUBLIC VOID ReadClaims(
+    		INPUT filter AS CHARACTER, 
+            OUTPUT TABLE eClaims): 
+      
+	DEFINE VARIABLE oFilter           AS  JsonObject NO-UNDO.
+    DEFINE VARIABLE pcUserID          AS  CHARACTER  NO-UNDO.  
+    DEFINE VARIABLE pcDate            AS  CHARACTER  NO-UNDO.
+    DEFINE VARIABLE lErrorFlag        AS  CHARACTER  NO-UNDO.  
+    DEFINE VARIABLE cErrorText        AS  CHARACTER  NO-UNDO.
+	DEFINE VARIABLE oFileName         AS  CHARACTER  NO-UNDO.
+	DEFINE VARIABLE oContent          AS  LONGCHAR   NO-UNDO.
+    DEFINE VARIABLE cJSONString       AS  CHARACTER  NO-UNDO.
+    DEFINE VARIABLE cExpenseTypeDesc  AS  CHARACTER  NO-UNDO.
+    define buffer bExpGroup for valItem.
+    define buffer bExpType for valItem.
+    
+    cJSONString = ADV_parseFilter(filter).
+    pcUserID = ADV_getValue("ADV_feedUser").
+    MESSAGE cJSONString.
+    MESSAGE ADV_getValue("ADV_feedUser").
+message "in calling ReadClaims*****" +  filter  + "**".      
+    EMPTY TEMP-TABLE eClaims NO-ERROR. 
+     /* parse out the filter looking for the user */
+    ASSIGN 
+      oFilter = ParseFilter(cJSONString)  
+      pcDate   = oFilter:GetCharacter('FilterDate').
+ MESSAGE "**" pcdate "**".
+    message "Calling API mobex/fetchclaimlines.p".
+    MESSAGE pcdate.
+    IF pcUserID = "" THEN pcUserID = "demoa".
+    MESSAGE pcUserID.
+    RUN mobex/fetchclaimlines.p
+      (INPUT false,  /* debug mode false will now come from user record not mobile device */
+       INPUT pcUserID,
+       INPUT "", /* group */
+       INPUT "", /* filter */
+       INPUT pcDate,
+       OUTPUT TABLE ttLines,
+       OUTPUT lErrorFlag,
+       OUTPUT cErrorText).
+    
+    /* missing items from temp-table call
+      expenseAddType, expenseFromDate, expenseToDate, expenseUnitPrice, expenseNoReceipt 
+    */   
+    FOR EACH ttLines. /* convert API temp-table to mobile device format */
+      /* find type code */
+      assign 
+        cExpenseTypeDesc = "".
+      for each bExpType no-lock
+         where bExpType.valType = "ExpensesType"
+           and bExpType.valCode = ttlType.
+        assign
+         cExpenseTypeDesc = (if bExpType.description <> "" then bExpType.description else bExpType.valCode).
+      end. /* LOOP_TYPES */
+      CREATE eClaims.
+      ASSIGN 
+        expenseDate        = ttlDate      
+        expenseGroup       = ttlGroup
+        expenseType        = cExpenseTypeDesc
+        expenseReason      = ttlReason
+        expenseAmount      = STRING(ttlAmount)  
+        expenseNotes       = ttlReason  
+        expenseMilesClaim  = STRING(ttlAdd_claimMiles)
+        expenseMilesRate   = STRING(ttlAdd_calcMiles)
+        expenseFrom        = ttlAdd_fromLoc    
+        expenseTo          = ttlAdd_toLoc
+     /* expenseImage      AS clob */
+        expense_ID         = ttlUnique 
+        expenseStatus      = "Sent" 
+        expenseCharge      = IF ttlChkRecharge = true THEN "on" ELSE "off"
+        expensePurpose     = ttlAdd_purpose 
+        expenseOOP         = ttlAdd_oopExplanation 
+        expensePayee       = ttlAdd_payee  
+        expenseNoPeople    = STRING(ttlAdd_numPeople)
+        expenseNoNights    = STRING(ttlAdd_numNights)
+        expenseEveMeal     = IF ttlAdd_chkIncEveMeal = TRUE THEN "on" ELSE "off"
+        expenseBreak       = IF ttlAdd_chkIncBreakfast = TRUE THEN "on" ELSE "off"  
+        expenseLunch       = IF ttlAdd_chkIncLunch = TRUE THEN "on" ELSE "off"
+        expenseVisit       = ttlAdd_visiting    
+        expenseRound       = IF ttlAdd_chkRoundtrip = TRUE THEN "on" ELSE "off"
+        expenseVehicle     = ttlAdd_vehicle   
+        expenseYTDMiles    = STRING(ttlAdd_ytdMiles)  
+        expensePeople      = ttlAdd_people   
+        expenseStoredJny   = ttlStoredJourney  
+        expenseOOPFlag     = IF ttlAdd_chkOutOfPolicy = TRUE THEN "Yes" ELSE "No"
+        expenseAddType     = "" 
+        expenseAddChk      = ttlAdd_chkFlag 
+        expenseAddValue    = STRING(ttlAdd_value)
+        expenseAddResource = ttlAdd_resource 
+        expenseUserID      = pcUserID
+        expenseFromDate    = "" 
+        expenseToDate      = ""
+        expenseUnitPrice   = ""
+        expenseNoReceipt   = IF ttlChkNoReceipt = TRUE THEN "Yes" ElSE "No"  
+        expenseGUID        = ttlUnique
+        expenseTypeCode    = ttlType
+        expenseProject     = ttlAdd_proj.
+ 
+      IF ttlStatus = "free" THEN 
+        ASSIGN expenseUsed = "".
+      ELSE 
+        ASSIGN expenseUsed = "Yes".
+        
+      /* now get attachments - if they exist */
+      message "Calling API mobex/fetchattachment.p".
+      RUN mobex/fetchattachment.p
+        (INPUT false,  /* debug mode false will now come from user record not mobile device */
+         INPUT pcUserID,
+         INPUT ttlUnique, /* line guid */
+         OUTPUT oFileName,
+         OUTPUT oContent,
+         OUTPUT lErrorFlag,
+         OUTPUT cErrorText).
+       
+ 
+      IF lErrorFlag = "no" THEN DO:
+       /*       
+   DEFINE VARIABLE cfilename AS CHAR.
+   cfilename = "c:\" + string(ttlUnique) + "john.txt"  .      
+   OUTPUT TO value(cfilename).
+   export oContent.  
+   OUTPUT CLOSE. 
+    */
+        ASSIGN
+         expenseImage = "data:image/jpeg;base64," + oContent.    
+      END.
+    END.
+   
+   
+    END METHOD.
+	 
+	
+	/*------------------------------------------------------------------------------
+            Purpose:  check for updates                                                                     
+            Notes:                                                                        
+    ------------------------------------------------------------------------------*/
+ 
+    @openapi.openedge.export(type="REST", useReturnValue="false", writeDataSetBeforeImage="false").
+    @progress.service.resourceMapping(type="REST", operation="invoke", URI="/CheckUpdates?filter=~{filter~}", alias="", mediaType="application/json"). 
+    METHOD PUBLIC VOID CheckUpdates
+          (INPUT pcLastGroup    AS CHARACTER,
+           INPUT pcLastType     AS CHARACTER,
+           INPUT filter         AS CHARACTER,
+           OUTPUT pcResult      AS CHARACTER):  
+     /* call RegisterMobex API */
+    DEFINE VARIABLE plErrorFlag       AS LOGICAL   NO-UNDO.
+    DEFINE VARIABLE pcErrorText       AS CHARACTER NO-UNDO.
+    DEFINE VARIABLE plMileageLicensed AS LOGICAL   NO-UNDO. 
+    DEFINE VARIABLE plGroupsChanged   AS LOGICAL   NO-UNDO.
+    DEFINE VARIABLE plTypesChanged    AS LOGICAL   NO-UNDO.
+    DEFINE VARIABLE cString           AS CHARACTER NO-UNDO.
+    DEFINE VARIABLE cJSONString       AS CHARACTER NO-UNDO.
+    DEFINE VARIABLE pcUserID          AS CHARACTER NO-UNDO.
+ 
+    cJSONString = ADV_parseFilter(filter).
+    pcUserID = ADV_getValue("ADV_feedUser").
+    MESSAGE cJSONString.
+    MESSAGE ADV_getValue("ADV_feedUser").
+    message "in calling checkforupdates*****" +  filter  + "**".
+    MESSAGE pclastGroup.
+    MESSAGE pclasttype.
+    ASSIGN
+      cString = string(year(today),"9999") + 
+                string(month(today),"99") + 
+                string(day(today),"99") + 
+                replace(string(time,"HH:MM:SS"),":","").
+    
+    RUN mobex/checkforupdates.p
+      (INPUT false,  /* debug mode false will now come from user record not mobile device */
+       INPUT pcUserID,
+       INPUT pcLastGroup,
+       INPUT pcLastType,
+       OUTPUT plMileageLicensed,
+       OUTPUT plGroupsChanged,
+       OUTPUT plTypesChanged,
+       OUTPUT plErrorFlag,
+       OUTPUT pcErrorText).
+    
+    /* output pcresult back to the device and comma separate the data - saves having to code for several return variables in OEMobile */
+    ASSIGN
+      pcResult = STRING(plMileageLicensed) + "," + STRING(plGroupsChanged) + "," + STRING(plTypesChanged) 
+               + "," + STRING(plErrorFlag) + "," + pcErrorText + "," + "Aq7ComXsjHp3HtQ5lCrEndIHbVU_-pVSVFIjRUdNij6MAoGGxXkiHMjzqJ5u8184"
+               + "," + cString.
+    /* pcresult will be mileagecalclicenses, groupschanged, typeschanged, lerrorflag, cerrortext, bing key, updatedatetime */
+    END METHOD.    
+    
+    /*------------------------------------------------------------------------------
+            Purpose:  check lock status on lines                                                                    
+            Notes:                                                                        
+    ------------------------------------------------------------------------------*/
+    @openapi.openedge.export(type="REST", useReturnValue="false", writeDataSetBeforeImage="false").
+    @progress.service.resourceMapping(type="REST", operation="invoke", URI="/FetchLockStatus?filter=~{filter~}", alias="", mediaType="application/json"). 
+    METHOD PUBLIC VOID FetchLockStatus
+          (INPUT  pcFree    AS CHARACTER,
+           INPUT  pcUsed    AS CHARACTER,
+           INPUT  filter    AS CHARACTER,
+           OUTPUT pcResult  AS CHARACTER):
+
+    /* pcresult will be ofree, oused, omissing,lerrorflag,cerrortext */
+    message "Calling API mobex/checkforupdates.p".
+    DEFINE VARIABLE ocFree      AS CHARACTER NO-UNDO.
+    DEFINE VARIABLE ocUsed      AS CHARACTER NO-UNDO.
+    DEFINE VARIABLE ocMissing   AS CHARACTER NO-UNDO.
+    DEFINE VARIABLE plErrorFlag AS LOGICAL   NO-UNDO.
+    DEFINE VARIABLE pcErrorText AS CHARACTER NO-UNDO.
+    DEFINE VARIABLE cJSONString AS CHARACTER NO-UNDO.
+    DEFINE VARIABLE pcUserID    AS CHARACTER NO-UNDO.   
+    
+    cJSONString = ADV_parseFilter(filter).
+    pcUserID = ADV_getValue("ADV_feedUser").
+    MESSAGE "*" pcuserID.       
+    MESSAGE "*" pcFree.
+    MESSAGE "*" pcUsed.
+    RUN mobex/checkclaimlines.p
+      (INPUT false,  /* debug mode false will now come from user record not mobile device */
+       INPUT pcUserID,
+       INPUT pcFree,
+       INPUT pcUsed,
+       OUTPUT ocFree,
+       OUTPUT ocUsed,
+       OUTPUT ocMissing,
+       OUTPUT plErrorFlag,
+       OUTPUT pcErrorText).
+  /*
+  ocfree = "201310180000000559".
+  ocmissing = "".
+  ocused = "" .
+  */
+  MESSAGE "free" ocfree.
+  MESSAGE "used" ocused.
+  MESSAGE "missing" ocMissing.
+    ASSIGN
+       pcResult = ocFree + ":" + ocUsed + ":" + ocMissing.
+  
+       
+    END METHOD. 
+   
+   /*------------------------------------------------------------------------------
+            Purpose:  track a claim                                                                   
+            Notes:                                                                        
+    ------------------------------------------------------------------------------*/
+    @openapi.openedge.export(type="REST", useReturnValue="false", writeDataSetBeforeImage="false").
+    @progress.service.resourceMapping(type="REST", operation="invoke", URI="/TrackClaim", alias="", mediaType="application/json"). 
+    METHOD PUBLIC VOID TrackClaim
+          (INPUT  pcUserID      AS CHARACTER,
+           INPUT  pcLineID      AS CHARACTER,
+           OUTPUT pcResult      AS CHARACTER): 
+    
+    /* pcresult will be ostatus,lerrorflag,cerrortext */
+    END METHOD. 
+
+    
+END CLASS.
+   

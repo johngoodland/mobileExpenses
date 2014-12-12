@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            home
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent"
+        />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/gelato/gelato.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.2.0/jquery.mobile.structure-1.2.0.min.css"
+        rel="stylesheet" />
+        <!-- css -->
+        <link type="text/css" href="files/views/assets/css/CSS1.css" rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.indexOf("Android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.2.0/jquery.mobile-1.2.0.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/tiggzi.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/progress/jsdo/progress.session.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/progress/jsdo/progress.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/JSDO.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDOCreate.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDODelete.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDOInvoke.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDORead.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDOUpdate.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDORow.js">
+        </script>
+        <link href="home.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="home.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="home" id="j_0" class="type-interior"
+        data-theme="f" data-add-back-btn="false" data-back-btn-text="Back">
+            <div data-role="header" data-position="fixed" data-theme="f" name="mobileheader1"
+            id="j_2" class='mobileHeader mobileheader1 '>
+                <h1 dsid="mobileheader1">
+                    Caption
+                </h1>
+            </div>
+            <!-- mobilecontainer1 -->
+            <div data-role="content" id="j_3" name="mobilecontainer1" class="mobileContent mobilecontainer1"
+            dsid="mobilecontainer1" data-theme=''>
+                <!-- mobileimage_4 -->
+                <img class="mobileImage mobileimage1" src="files/views/assets/image/no-image.jpg"
+                id="j_4" dsid="mobileimage_4" name="mobileimage_4" />
+                <!-- btnTakePicture -->
+                <a data-role="button" name="btnTakePicture" dsid="btnTakePicture" class=' button mobilebutton1'
+                id='j_5' data-corners='true' data-mini='false' data-theme="f" tabIndex="1">
+                Existing Picture
+                </a>
+                <!-- mobilebutton1_6 -->
+                <a data-role="button" name="mobilebutton1_6" dsid="mobilebutton1_6" class=' button mobilebutton2'
+                id='j_6' data-corners='true' data-mini='false' data-theme="f" tabIndex="2">
+                Take Picture
+                </a>
+            </div>
+            <!-- mobilefooter1 -->
+            <div data-role="footer" data-position="fixed" class="mobileFooter mobilefooter1"
+            name="mobilefooter1" dsid="mobilefooter1" id="j_7" data-theme="f">
+            </div>
+        </div>
+    </body>
+
+</html>

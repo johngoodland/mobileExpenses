@@ -1,0 +1,398 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/dlcv114/gui/" type="PathEntry" ModificationStamp="1415113393172" FullName="gui" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="">
+			<procedure name="applhelp" SourceFilePath="" RfilePath="C:/dlcv114/gui/applhelp.r"></procedure>
+			<procedure name="dict" SourceFilePath="" RfilePath="C:/dlcv114/gui/dict.r"></procedure>
+			<procedure name="licrpt" SourceFilePath="" RfilePath="C:/dlcv114/gui/licrpt.r"></procedure>
+			<procedure name="prostart" SourceFilePath="" RfilePath="C:/dlcv114/gui/prostart.r"></procedure>
+			<procedure name="results" SourceFilePath="" RfilePath="C:/dlcv114/gui/results.r"></procedure>
+			<procedure name="samples" SourceFilePath="" RfilePath="C:/dlcv114/gui/samples.r"></procedure>
+			<procedure name="_ab" SourceFilePath="" RfilePath="C:/dlcv114/gui/_ab.r"></procedure>
+			<procedure name="_admin" SourceFilePath="" RfilePath="C:/dlcv114/gui/_admin.r"></procedure>
+			<procedure name="_comp" SourceFilePath="" RfilePath="C:/dlcv114/gui/_comp.r"></procedure>
+			<procedure name="_desk" SourceFilePath="" RfilePath="C:/dlcv114/gui/_desk.r"></procedure>
+			<procedure name="_dict" SourceFilePath="" RfilePath="C:/dlcv114/gui/_dict.r"></procedure>
+			<procedure name="_edit" SourceFilePath="" RfilePath="C:/dlcv114/gui/_edit.r"></procedure>
+			<procedure name="_help" SourceFilePath="" RfilePath="C:/dlcv114/gui/_help.r"></procedure>
+			<procedure name="_login" SourceFilePath="" RfilePath="C:/dlcv114/gui/_login.r"></procedure>
+			<procedure name="_passphrase" SourceFilePath="" RfilePath="C:/dlcv114/gui/_passphrase.r"></procedure>
+			<procedure name="_prostar" SourceFilePath="" RfilePath="C:/dlcv114/gui/_prostar.r"></procedure>
+			<procedure name="_resconv" SourceFilePath="" RfilePath="C:/dlcv114/gui/_resconv.r"></procedure>
+			<procedure name="_winevnt" SourceFilePath="" RfilePath="C:/dlcv114/gui/_winevnt.r"></procedure>
+		</relative>
+		<relative path="web/objects">
+			<procedure name="dbtools" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/objects/dbtools.r"></procedure>
+			<procedure name="devpath" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/objects/devpath.r"></procedure>
+			<procedure name="runlog" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/objects/runlog.r"></procedure>
+			<procedure name="session" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/objects/session.r"></procedure>
+			<procedure name="stateaware" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/objects/stateaware.r"></procedure>
+			<procedure name="web-disp" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/objects/web-disp.r"></procedure>
+			<procedure name="web-util" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/objects/web-util.r"></procedure>
+		</relative>
+		<relative path="adm/support">
+			<procedure name="abcd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/abcd.r"></procedure>
+			<procedure name="advqedit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/advqedit.r"></procedure>
+			<procedure name="attr-edt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/attr-edt.r"></procedure>
+			<procedure name="browserd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/browserd.r"></procedure>
+			<procedure name="contnrd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/contnrd.r"></procedure>
+			<procedure name="filtedit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/filtedit.r"></procedure>
+			<procedure name="folderd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/folderd.r"></procedure>
+			<procedure name="keyedit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/keyedit.r"></procedure>
+			<procedure name="n-paneld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/n-paneld.r"></procedure>
+			<procedure name="optiond" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/optiond.r"></procedure>
+			<procedure name="queryd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/queryd.r"></procedure>
+			<procedure name="rb-wrapd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/rb-wrapd.r"></procedure>
+			<procedure name="sortedit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/sortedit.r"></procedure>
+			<procedure name="u-paneld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/u-paneld.r"></procedure>
+			<procedure name="viewerd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/viewerd.r"></procedure>
+			<procedure name="xedit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/xedit.r"></procedure>
+			<procedure name="_adm-opn" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_adm-opn.r"></procedure>
+			<procedure name="_key-fnd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_key-fnd.r"></procedure>
+			<procedure name="_key-snd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_key-snd.r"></procedure>
+			<procedure name="_so-attr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_so-attr.r"></procedure>
+			<procedure name="_so-info" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_so-info.r"></procedure>
+			<procedure name="_tagdat" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_tagdat.r"></procedure>
+			<procedure name="_wizafld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizafld.r"></procedure>
+			<procedure name="_wizard" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizard.r"></procedure>
+			<procedure name="_wizdel" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizdel.r"></procedure>
+			<procedure name="_wizend" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizend.r"></procedure>
+			<procedure name="_wizfld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizfld.r"></procedure>
+			<procedure name="_wizkey" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizkey.r"></procedure>
+			<procedure name="_wizntro" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizntro.r"></procedure>
+			<procedure name="_wizqry" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizqry.r"></procedure>
+			<procedure name="_wizxtbl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_wizxtbl.r"></procedure>
+			<procedure name="_xgetdat" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/support/_xgetdat.r"></procedure>
+		</relative>
+		<relative path="webutil">
+			<procedure name="about" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/about.r"></procedure>
+			<procedure name="conve4gl" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/conve4gl.r"></procedure>
+			<procedure name="dbcheck" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/dbcheck.r"></procedure>
+			<procedure name="dbConnect" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/dbConnect.r"></procedure>
+			<procedure name="dbDisconnect" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/dbDisconnect.r"></procedure>
+			<procedure name="debug" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/debug.r"></procedure>
+			<procedure name="e4gl-gen" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/e4gl-gen.r"></procedure>
+			<procedure name="ping" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/ping.r"></procedure>
+			<procedure name="reset" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/reset.r"></procedure>
+			<procedure name="webstart" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/webstart.r"></procedure>
+			<procedure name="_cpyfile" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_cpyfile.r"></procedure>
+			<procedure name="_fldinf1" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_fldinf1.r"></procedure>
+			<procedure name="_fldinfo" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_fldinfo.r"></procedure>
+			<procedure name="_fldtyp1" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_fldtyp1.r"></procedure>
+			<procedure name="_fldtype" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_fldtype.r"></procedure>
+			<procedure name="_genoff" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_genoff.r"></procedure>
+			<procedure name="_goto" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_goto.r"></procedure>
+			<procedure name="_htmsrch" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_htmsrch.r"></procedure>
+			<procedure name="_offsrch" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_offsrch.r"></procedure>
+			<procedure name="_osfile" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_osfile.r"></procedure>
+			<procedure name="_osfile1" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_osfile1.r"></procedure>
+			<procedure name="_osfile3" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_osfile3.r"></procedure>
+			<procedure name="_prnwin" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_prnwin.r"></procedure>
+			<procedure name="_probar" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_probar.r"></procedure>
+			<procedure name="_promsgs" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_promsgs.r"></procedure>
+			<procedure name="_relname" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_relname.r"></procedure>
+			<procedure name="_savebar" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_savebar.r"></procedure>
+			<procedure name="_sdoinfo" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_sdoinfo.r"></procedure>
+			<procedure name="_weblist" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_weblist.r"></procedure>
+			<procedure name="_webmsgs" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_webmsgs.r"></procedure>
+			<procedure name="_wstyle" SourceFilePath="" RfilePath="C:/dlcv114/gui/webutil/_wstyle.r"></procedure>
+		</relative>
+		<relative path="adm2/support">
+			<procedure name="b2bd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/b2bd.r"></procedure>
+			<procedure name="brouter" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/brouter.r"></procedure>
+			<procedure name="browsed" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/browsed.r"></procedure>
+			<procedure name="consumerd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/consumerd.r"></procedure>
+			<procedure name="datad" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/datad.r"></procedure>
+			<procedure name="dataviewd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/dataviewd.r"></procedure>
+			<procedure name="db2b" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/db2b.r"></procedure>
+			<procedure name="db2b_cl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/db2b_cl.r"></procedure>
+			<procedure name="dconsumer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/dconsumer.r"></procedure>
+			<procedure name="dconsumer_cl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/dconsumer_cl.r"></procedure>
+			<procedure name="drouter" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/drouter.r"></procedure>
+			<procedure name="drouter_cl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/drouter_cl.r"></procedure>
+			<procedure name="dynbrowserd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/dynbrowserd.r"></procedure>
+			<procedure name="fieldd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/fieldd.r"></procedure>
+			<procedure name="filterd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/filterd.r"></procedure>
+			<procedure name="folderd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/folderd.r"></procedure>
+			<procedure name="lobfieldd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/lobfieldd.r"></procedure>
+			<procedure name="n-paneld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/n-paneld.r"></procedure>
+			<procedure name="producerd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/producerd.r"></procedure>
+			<procedure name="routerd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/routerd.r"></procedure>
+			<procedure name="sbod" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/sbod.r"></procedure>
+			<procedure name="selectd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/selectd.r"></procedure>
+			<procedure name="senderd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/senderd.r"></procedure>
+			<procedure name="toggleframe" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/toggleframe.r"></procedure>
+			<procedure name="toold" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/toold.r"></procedure>
+			<procedure name="treeviewd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/treeviewd.r"></procedure>
+			<procedure name="u-paneld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/u-paneld.r"></procedure>
+			<procedure name="vb2b" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/vb2b.r"></procedure>
+			<procedure name="vb2bdata" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/vb2bdata.r"></procedure>
+			<procedure name="vconsumer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/vconsumer.r"></procedure>
+			<procedure name="viewerd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/viewerd.r"></procedure>
+			<procedure name="visuald" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/visuald.r"></procedure>
+			<procedure name="_so-attr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_so-attr.r"></procedure>
+			<procedure name="_so-info" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_so-info.r"></procedure>
+			<procedure name="_wizard" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizard.r"></procedure>
+			<procedure name="_wizbkgr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizbkgr.r"></procedure>
+			<procedure name="_wizdel" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizdel.r"></procedure>
+			<procedure name="_wizdfld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizdfld.r"></procedure>
+			<procedure name="_wizdo" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizdo.r"></procedure>
+			<procedure name="_wizds" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizds.r"></procedure>
+			<procedure name="_wizend" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizend.r"></procedure>
+			<procedure name="_wizetbl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizetbl.r"></procedure>
+			<procedure name="_wizfld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizfld.r"></procedure>
+			<procedure name="_wizhref" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizhref.r"></procedure>
+			<procedure name="_wizhtml" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizhtml.r"></procedure>
+			<procedure name="_wizlog" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizlog.r"></procedure>
+			<procedure name="_wizmap" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizmap.r"></procedure>
+			<procedure name="_wizntro" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizntro.r"></procedure>
+			<procedure name="_wizqry" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizqry.r"></procedure>
+			<procedure name="_wizstyl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/support/_wizstyl.r"></procedure>
+		</relative>
+		<relative path="web2/custom">
+			<procedure name="admwebcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/custom/admwebcustom.r"></procedure>
+			<procedure name="html-mapcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/custom/html-mapcustom.r"></procedure>
+			<procedure name="wbdatacustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/custom/wbdatacustom.r"></procedure>
+			<procedure name="wbtablecustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/custom/wbtablecustom.r"></procedure>
+			<procedure name="webrepcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/custom/webrepcustom.r"></procedure>
+		</relative>
+		<relative path="web/support">
+			<procedure name="printval" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/printval.r"></procedure>
+			<procedure name="rdoffr" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/rdoffr.r"></procedure>
+			<procedure name="tagparse" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/tagparse.r"></procedure>
+			<procedure name="tagrun" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/tagrun.r"></procedure>
+			<procedure name="webedit" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/webedit.r"></procedure>
+			<procedure name="webinpu2" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/webinpu2.r"></procedure>
+			<procedure name="webinput" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/webinput.r"></procedure>
+			<procedure name="weblist" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/weblist.r"></procedure>
+			<procedure name="webmsg" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/webmsg.r"></procedure>
+			<procedure name="webradio" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/webradio.r"></procedure>
+			<procedure name="webtog" SourceFilePath="" RfilePath="C:/dlcv114/gui/web/support/webtog.r"></procedure>
+		</relative>
+		<relative path="aderesc">
+			<procedure name="_aload" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderesc/_aload.r"></procedure>
+			<procedure name="_convqc" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderesc/_convqc.r"></procedure>
+			<procedure name="_convtyp" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderesc/_convtyp.r"></procedure>
+			<procedure name="_convu" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderesc/_convu.r"></procedure>
+			<procedure name="_fullnam" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderesc/_fullnam.r"></procedure>
+			<procedure name="_qread" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderesc/_qread.r"></procedure>
+			<procedure name="_read" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderesc/_read.r"></procedure>
+			<procedure name="_ttyconv" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderesc/_ttyconv.r"></procedure>
+		</relative>
+		<relative path="aderb">
+			<procedure name="_getini" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_getini.r"></procedure>
+			<procedure name="_getname" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_getname.r"></procedure>
+			<procedure name="_prdef" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_prdef.r"></procedure>
+			<procedure name="_printrb" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_printrb.r"></procedure>
+			<procedure name="_prlist" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_prlist.r"></procedure>
+			<procedure name="_prntint" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_prntint.r"></procedure>
+			<procedure name="_prntrb2" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_prntrb2.r"></procedure>
+			<procedure name="_prore" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_prore.r"></procedure>
+			<procedure name="_rbpwenc" SourceFilePath="" RfilePath="C:/dlcv114/gui/aderb/_rbpwenc.r"></procedure>
+		</relative>
+		<relative path="adm2">
+			<procedure name="appserver" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/appserver.r"></procedure>
+			<procedure name="askquestion" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/askquestion.r"></procedure>
+			<procedure name="b2b" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/b2b.r"></procedure>
+			<procedure name="browser" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/browser.r"></procedure>
+			<procedure name="cache" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/cache.r"></procedure>
+			<procedure name="caller" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/caller.r"></procedure>
+			<procedure name="callstring" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/callstring.r"></procedure>
+			<procedure name="callstringtt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/callstringtt.r"></procedure>
+			<procedure name="calltable" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/calltable.r"></procedure>
+			<procedure name="calltablett" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/calltablett.r"></procedure>
+			<procedure name="cobuildp" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/cobuildp.r"></procedure>
+			<procedure name="combo" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/combo.r"></procedure>
+			<procedure name="commit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/commit.r"></procedure>
+			<procedure name="committransaction" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/committransaction.r"></procedure>
+			<procedure name="consumer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/consumer.r"></procedure>
+			<procedure name="containr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/containr.r"></procedure>
+			<procedure name="data" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/data.r"></procedure>
+			<procedure name="datacontainer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/datacontainer.r"></procedure>
+			<procedure name="dataext" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dataext.r"></procedure>
+			<procedure name="dataextapi" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dataextapi.r"></procedure>
+			<procedure name="dataextcols" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dataextcols.r"></procedure>
+			<procedure name="dataquery" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dataquery.r"></procedure>
+			<procedure name="dataset" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dataset.r"></procedure>
+			<procedure name="dataview" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dataview.r"></procedure>
+			<procedure name="datavis" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/datavis.r"></procedure>
+			<procedure name="design" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/design.r"></procedure>
+			<procedure name="dynb2b" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynb2b.r"></procedure>
+			<procedure name="dynbrowser" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynbrowser.r"></procedure>
+			<procedure name="dyncombo" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dyncombo.r"></procedure>
+			<procedure name="dynconsumer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynconsumer.r"></procedure>
+			<procedure name="dyncontainer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dyncontainer.r"></procedure>
+			<procedure name="dyndata" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dyndata.r"></procedure>
+			<procedure name="dyndataset" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dyndataset.r"></procedure>
+			<procedure name="dyndataview" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dyndataview.r"></procedure>
+			<procedure name="dynfilter" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynfilter.r"></procedure>
+			<procedure name="dynlookup" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynlookup.r"></procedure>
+			<procedure name="dynproducer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynproducer.r"></procedure>
+			<procedure name="dynrouter" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynrouter.r"></procedure>
+			<procedure name="dynsdo" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynsdo.r"></procedure>
+			<procedure name="dynselect" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynselect.r"></procedure>
+			<procedure name="dyntoolbar" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dyntoolbar.r"></procedure>
+			<procedure name="dyntreeview" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dyntreeview.r"></procedure>
+			<procedure name="dynwindow" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/dynwindow.r"></procedure>
+			<procedure name="exportdata" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/exportdata.r"></procedure>
+			<procedure name="fetchcontaineddata" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/fetchcontaineddata.r"></procedure>
+			<procedure name="fetchcontainedrows" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/fetchcontainedrows.r"></procedure>
+			<procedure name="fetchdata" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/fetchdata.r"></procedure>
+			<procedure name="fetchdata64" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/fetchdata64.r"></procedure>
+			<procedure name="fetchdefs" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/fetchdefs.r"></procedure>
+			<procedure name="fetchfield" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/fetchfield.r"></procedure>
+			<procedure name="fetchrows" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/fetchrows.r"></procedure>
+			<procedure name="field" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/field.r"></procedure>
+			<procedure name="filter" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/filter.r"></procedure>
+			<procedure name="folder" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/folder.r"></procedure>
+			<procedure name="jmslogin" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/jmslogin.r"></procedure>
+			<procedure name="lobfield" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/lobfield.r"></procedure>
+			<procedure name="lookup" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/lookup.r"></procedure>
+			<procedure name="lookupfield" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/lookupfield.r"></procedure>
+			<procedure name="lookupqp" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/lookupqp.r"></procedure>
+			<procedure name="messaging" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/messaging.r"></procedure>
+			<procedure name="msghandler" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/msghandler.r"></procedure>
+			<procedure name="panel" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/panel.r"></procedure>
+			<procedure name="pcommit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/pcommit.r"></procedure>
+			<procedure name="pnavico" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/pnavico.r"></procedure>
+			<procedure name="pnavlbl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/pnavlbl.r"></procedure>
+			<procedure name="producer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/producer.r"></procedure>
+			<procedure name="pupdsav" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/pupdsav.r"></procedure>
+			<procedure name="query" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/query.r"></procedure>
+			<procedure name="queryext" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/queryext.r"></procedure>
+			<procedure name="remotedynsdo" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/remotedynsdo.r"></procedure>
+			<procedure name="router" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/router.r"></procedure>
+			<procedure name="sax" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/sax.r"></procedure>
+			<procedure name="sbo" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/sbo.r"></procedure>
+			<procedure name="sboext" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/sboext.r"></procedure>
+			<procedure name="select" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/select.r"></procedure>
+			<procedure name="sendrows" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/sendrows.r"></procedure>
+			<procedure name="serviceadapter" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/serviceadapter.r"></procedure>
+			<procedure name="smart" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/smart.r"></procedure>
+			<procedure name="thincombo" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/thincombo.r"></procedure>
+			<procedure name="thindata" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/thindata.r"></procedure>
+			<procedure name="thindataview" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/thindataview.r"></procedure>
+			<procedure name="thinlookup" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/thinlookup.r"></procedure>
+			<procedure name="thinsdo" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/thinsdo.r"></procedure>
+			<procedure name="timesdfv" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/timesdfv.r"></procedure>
+			<procedure name="toolbar" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/toolbar.r"></procedure>
+			<procedure name="treeview" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/treeview.r"></procedure>
+			<procedure name="tvcontnr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/tvcontnr.r"></procedure>
+			<procedure name="viewer" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/viewer.r"></procedure>
+			<procedure name="visual" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/visual.r"></procedure>
+			<procedure name="xml" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/xml.r"></procedure>
+		</relative>
+		<relative path="aderes">
+			<procedure name="u-cprint" SourceFilePath="C:/dlcv114/gui/aderes/u-cprint.p" RfilePath=""></procedure>
+			<procedure name="u-cto" SourceFilePath="C:/dlcv114/gui/aderes/u-cto.p" RfilePath=""></procedure>
+			<procedure name="u-define" SourceFilePath="C:/dlcv114/gui/aderes/u-define.p" RfilePath=""></procedure>
+			<procedure name="u-direct" SourceFilePath="C:/dlcv114/gui/aderes/u-direct.p" RfilePath=""></procedure>
+			<procedure name="u-export" SourceFilePath="C:/dlcv114/gui/aderes/u-export.p" RfilePath=""></procedure>
+			<procedure name="u-field" SourceFilePath="C:/dlcv114/gui/aderes/u-field.p" RfilePath=""></procedure>
+			<procedure name="u-login" SourceFilePath="C:/dlcv114/gui/aderes/u-login.p" RfilePath=""></procedure>
+			<procedure name="u-logo" SourceFilePath="C:/dlcv114/gui/aderes/u-logo.p" RfilePath=""></procedure>
+			<procedure name="u-mcheck" SourceFilePath="C:/dlcv114/gui/aderes/u-mcheck.p" RfilePath=""></procedure>
+			<procedure name="u-menu" SourceFilePath="C:/dlcv114/gui/aderes/u-menu.p" RfilePath=""></procedure>
+			<procedure name="u-pprog" SourceFilePath="C:/dlcv114/gui/aderes/u-pprog.p" RfilePath=""></procedure>
+			<procedure name="u-print" SourceFilePath="C:/dlcv114/gui/aderes/u-print.p" RfilePath=""></procedure>
+			<procedure name="u-pview" SourceFilePath="C:/dlcv114/gui/aderes/u-pview.p" RfilePath=""></procedure>
+			<procedure name="u-secure" SourceFilePath="C:/dlcv114/gui/aderes/u-secure.p" RfilePath=""></procedure>
+			<procedure name="u-table" SourceFilePath="C:/dlcv114/gui/aderes/u-table.p" RfilePath=""></procedure>
+			<procedure name="u-thru" SourceFilePath="C:/dlcv114/gui/aderes/u-thru.p" RfilePath=""></procedure>
+			<procedure name="u-to" SourceFilePath="C:/dlcv114/gui/aderes/u-to.p" RfilePath=""></procedure>
+			<procedure name="u-where" SourceFilePath="C:/dlcv114/gui/aderes/u-where.p" RfilePath=""></procedure>
+		</relative>
+		<relative path="web2/support">
+			<procedure name="rdoffr" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/support/rdoffr.r"></procedure>
+			<procedure name="_rmtsdo" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/support/_rmtsdo.r"></procedure>
+		</relative>
+		<relative path="adm/objects">
+			<procedure name="broker" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/broker.r"></procedure>
+			<procedure name="folder" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/folder.r"></procedure>
+			<procedure name="get-init" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/get-init.r"></procedure>
+			<procedure name="p-abc" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/p-abc.r"></procedure>
+			<procedure name="p-navico" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/p-navico.r"></procedure>
+			<procedure name="p-navlbl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/p-navlbl.r"></procedure>
+			<procedure name="p-option" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/p-option.r"></procedure>
+			<procedure name="p-updsav" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/p-updsav.r"></procedure>
+			<procedure name="p-updtxn" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/p-updtxn.r"></procedure>
+			<procedure name="rb-wrap" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/objects/rb-wrap.r"></procedure>
+		</relative>
+		<relative path="adm2/custom">
+			<procedure name="appservercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/appservercustom.r"></procedure>
+			<procedure name="b2bcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/b2bcustom.r"></procedure>
+			<procedure name="browsercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/browsercustom.r"></procedure>
+			<procedure name="callercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/callercustom.r"></procedure>
+			<procedure name="combocustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/combocustom.r"></procedure>
+			<procedure name="consumercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/consumercustom.r"></procedure>
+			<procedure name="containrcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/containrcustom.r"></procedure>
+			<procedure name="datacustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/datacustom.r"></procedure>
+			<procedure name="dataquerycustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/dataquerycustom.r"></procedure>
+			<procedure name="datasetcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/datasetcustom.r"></procedure>
+			<procedure name="dataviewcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/dataviewcustom.r"></procedure>
+			<procedure name="dataviscustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/dataviscustom.r"></procedure>
+			<procedure name="designcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/designcustom.r"></procedure>
+			<procedure name="fieldcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/fieldcustom.r"></procedure>
+			<procedure name="filtercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/filtercustom.r"></procedure>
+			<procedure name="lobfieldcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/lobfieldcustom.r"></procedure>
+			<procedure name="lookupcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/lookupcustom.r"></procedure>
+			<procedure name="lookupfieldcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/lookupfieldcustom.r"></procedure>
+			<procedure name="messagingcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/messagingcustom.r"></procedure>
+			<procedure name="msghandlercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/msghandlercustom.r"></procedure>
+			<procedure name="panelcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/panelcustom.r"></procedure>
+			<procedure name="producercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/producercustom.r"></procedure>
+			<procedure name="querycustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/querycustom.r"></procedure>
+			<procedure name="routercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/routercustom.r"></procedure>
+			<procedure name="saxcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/saxcustom.r"></procedure>
+			<procedure name="sbocustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/sbocustom.r"></procedure>
+			<procedure name="selectcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/selectcustom.r"></procedure>
+			<procedure name="smartcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/smartcustom.r"></procedure>
+			<procedure name="toolbarcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/toolbarcustom.r"></procedure>
+			<procedure name="treeviewcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/treeviewcustom.r"></procedure>
+			<procedure name="tvcontnrcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/tvcontnrcustom.r"></procedure>
+			<procedure name="viewercustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/viewercustom.r"></procedure>
+			<procedure name="visualcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/visualcustom.r"></procedure>
+			<procedure name="xmlcustom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm2/custom/xmlcustom.r"></procedure>
+		</relative>
+		<relative path="adm/samples">
+			<procedure name="b-cuslkp" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/b-cuslkp.r"></procedure>
+			<procedure name="b-linord" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/b-linord.r"></procedure>
+			<procedure name="itemsel" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/itemsel.r"></procedure>
+			<procedure name="p-savres" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/p-savres.r"></procedure>
+			<procedure name="q-itmcat" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/q-itmcat.r"></procedure>
+			<procedure name="q-ordcus" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/q-ordcus.r"></procedure>
+			<procedure name="uib-clck" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/uib-clck.r"></procedure>
+			<procedure name="v-cusadd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/v-cusadd.r"></procedure>
+			<procedure name="v-cuscdt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/v-cuscdt.r"></procedure>
+			<procedure name="v-cuscom" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/v-cuscom.r"></procedure>
+			<procedure name="v-cusord" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/v-cusord.r"></procedure>
+			<procedure name="v-itminf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/v-itminf.r"></procedure>
+			<procedure name="v-shpinf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/v-shpinf.r"></procedure>
+			<procedure name="v-spin" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/v-spin.r"></procedure>
+			<procedure name="w-cusupd" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/w-cusupd.r"></procedure>
+			<procedure name="w-ordtrk" SourceFilePath="" RfilePath="C:/dlcv114/gui/adm/samples/w-ordtrk.r"></procedure>
+		</relative>
+		<relative path="web2">
+			<procedure name="admweb" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/admweb.r"></procedure>
+			<procedure name="html-map" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/html-map.r"></procedure>
+			<procedure name="wbdata" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/wbdata.r"></procedure>
+			<procedure name="wbtable" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/wbtable.r"></procedure>
+			<procedure name="webrep" SourceFilePath="" RfilePath="C:/dlcv114/gui/web2/webrep.r"></procedure>
+		</relative>
+		<relative path="prohelp">
+			<procedure name="dirlist" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/dirlist.r"></procedure>
+			<procedure name="endsess" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/endsess.r"></procedure>
+			<procedure name="function" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/function.r"></procedure>
+			<procedure name="keyword" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/keyword.r"></procedure>
+			<procedure name="operator" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/operator.r"></procedure>
+			<procedure name="prohelp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/prohelp.r"></procedure>
+			<procedure name="spec" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/spec.r"></procedure>
+			<procedure name="statemnt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/statemnt.r"></procedure>
+			<procedure name="_keybrd" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/_keybrd.r"></procedure>
+			<procedure name="_msgs" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/_msgs.r"></procedure>
+			<procedure name="_rcntmsg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prohelp/_rcntmsg.r"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

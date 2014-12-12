@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/dlcv114/gui/OpenEdge.BusinessLogic.pl" type="ProcedureLibrary" ModificationStamp="1415113393122" FullName="OpenEdge.BusinessLogic.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+	</procedures>
+	<classes>
+		<pacakage name="OpenEdge.BusinessLogic">
+			<class name="OpenEdge.BusinessLogic.BusinessEntity" SourceFilePath="" RfilePath="C:/dlcv114/gui/OpenEdge.BusinessLogic.pl" Abstract="true" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="42"></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

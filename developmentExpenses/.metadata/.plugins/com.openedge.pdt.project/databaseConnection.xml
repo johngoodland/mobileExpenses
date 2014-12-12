@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/databaseConnection.xsd">
+<databaseconnection identifier="openacc">
+<name>openacc</name>
+<description/>
+<physicalname>openacc</physicalname>
+<logicalname/>
+<aliases/>
+<group/>
+<host>nrthqa04.coa.local </host>
+<service>7501</service>
+<userID/>
+<password/>
+<connectionparameters/>
+<SQLIdentifier/>
+<autoStartServer>false</autoStartServer>
+<serverParameters/>
+<autoShutdownServer>false</autoShutdownServer>
+<OEVersion>11.3</OEVersion>
+</databaseconnection>
+<databaseconnection identifier="openstrt">
+<name>openstrt</name>
+<description/>
+<physicalname>openstrt</physicalname>
+<logicalname/>
+<aliases/>
+<group/>
+<host>nrthqa04.coa.local </host>
+<service>7511</service>
+<userID/>
+<password/>
+<connectionparameters/>
+<SQLIdentifier/>
+<autoStartServer>false</autoStartServer>
+<serverParameters/>
+<autoShutdownServer>false</autoShutdownServer>
+<OEVersion>11.3</OEVersion>
+</databaseconnection>
+<databaseconnection identifier="ebisQA">
+<name>ebisQA</name>
+<description>Open X eBIS QA database</description>
+<physicalname>open_x</physicalname>
+<logicalname>open_x</logicalname>
+<aliases/>
+<group/>
+<host>10.9.1.53</host>
+<service>7531</service>
+<userID/>
+<password/>
+<connectionparameters/>
+<SQLIdentifier/>
+<autoStartServer>false</autoStartServer>
+<serverParameters/>
+<autoShutdownServer>false</autoShutdownServer>
+<OEVersion>11.4</OEVersion>
+</databaseconnection>
+</root>

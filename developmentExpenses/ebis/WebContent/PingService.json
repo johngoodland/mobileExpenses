@@ -1,0 +1,116 @@
+{
+    "version": "1.2",
+    "lastModified": "Wed Nov 12 09:23:00 GMT 2014",
+    "services": [{
+        "name": "PingService",
+        "address": "\/rest\/PingService",
+        "useRequest": true,
+        "resources": [{
+            "name": "manage",
+            "path": "\/manage",
+            "autoSave": true,
+            "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {"eeBis": {
+                    "type": "array",
+                    "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "_id": {"type": "string"},
+                            "_errorString": {"type": "string"},
+                            "receiptDate": {
+                                "type": "string",
+                                "ablType": "DATE",
+                                "default": null,
+                                "title": "receiptDate",
+                                "format": "date"
+                            },
+                            "receiptType": {
+                                "type": "string",
+                                "ablType": "CHARACTER",
+                                "default": "",
+                                "title": "receiptType"
+                            },
+                            "receiptReason": {
+                                "type": "string",
+                                "ablType": "CHARACTER",
+                                "default": "",
+                                "title": "receiptReason"
+                            },
+                            "receiptAmount": {
+                                "type": "number",
+                                "ablType": "DECIMAL",
+                                "default": 0,
+                                "title": "receiptAmount"
+                            },
+                            "receiptNotes": {
+                                "type": "string",
+                                "ablType": "CHARACTER",
+                                "default": "",
+                                "title": "receiptNotes"
+                            },
+                            "receiptMilesClaim": {
+                                "type": "integer",
+                                "ablType": "INTEGER",
+                                "default": 0,
+                                "title": "receiptMilesClaim"
+                            },
+                            "receiptMilesRate": {
+                                "type": "number",
+                                "ablType": "DECIMAL",
+                                "default": 0,
+                                "title": "receiptMilesRate"
+                            },
+                            "receiptFrom": {
+                                "type": "string",
+                                "ablType": "CHARACTER",
+                                "default": "",
+                                "title": "receiptFrom"
+                            },
+                            "receiptTo": {
+                                "type": "string",
+                                "ablType": "CHARACTER",
+                                "default": "",
+                                "title": "receiptTo"
+                            },
+                            "receiptReturnTrip": {
+                                "type": "boolean",
+                                "ablType": "LOGICAL",
+                                "default": false,
+                                "title": "receiptReturnTrip"
+                            },
+                            "receiptFromDate": {
+                                "type": "string",
+                                "ablType": "DATE",
+                                "default": null,
+                                "title": "receiptFromDate",
+                                "format": "date"
+                            },
+                            "receiptToDate": {
+                                "type": "string",
+                                "ablType": "DATE",
+                                "default": null,
+                                "title": "receiptToDate",
+                                "format": "date"
+                            },
+                            "receiptNoNights": {
+                                "type": "integer",
+                                "ablType": "INTEGER",
+                                "default": 0,
+                                "title": "receiptNoNights"
+                            }
+                        }
+                    }
+                }}
+            },
+            "operations": [{
+                "path": "\/ping",
+                "useBeforeImage": false,
+                "type": "read",
+                "verb": "get",
+                "params": []
+            }]
+        }]
+    }]
+}

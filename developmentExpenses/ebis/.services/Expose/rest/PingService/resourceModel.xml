@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="manage" path="/manage" produces="application/json">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/manage.pidl::com.progress.openedge.pdt.bpmbindings" name="manage..ping" path="/ping" produces="application/json" verb="GET"/>
+  </prgs:resource>
+</prgs:model>

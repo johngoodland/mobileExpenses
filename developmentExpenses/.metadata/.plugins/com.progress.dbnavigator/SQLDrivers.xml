@@ -1,0 +1,96 @@
+<Beans>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>com.prgs.jdbc.oracle.OracleDriver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-2</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.fw.util.beanwrapper.StringWrapper">
+                <string>C:\dlcv114\oeide\eclipse\plugins\com.progress.dbnavigator_3.2.1\drivers/pgoracle.jar</string>
+            </Bean>
+        </jarFileNames>
+        <name>Oracle JDBC Driver (DataDirect)</name>
+        <url>jdbc:progress:oracle://&lt;hostname&gt;:&lt;port&gt;;SID=</url>
+    </Bean>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>com.ddtek.jdbc.openedge.OpenEdgeDriver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-27</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.fw.util.beanwrapper.StringWrapper">
+                <string>C:\dlcv114\oeide\eclipse\plugins\com.progress.dbnavigator_3.2.1\drivers/openedge.jar</string>
+            </Bean>
+        </jarFileNames>
+        <name>Progress OpenEdge JDBC Driver (DataDirect)</name>
+        <url>jdbc:datadirect:openedge://&lt;hostname&gt;:&lt;port&gt;;databaseName=name</url>
+    </Bean>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>sun.jdbc.odbc.JdbcOdbcDriver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-1</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true"/>
+        <name>JDBC ODBC Bridge</name>
+        <url>jdbc:odbc:&lt;alias&gt;</url>
+    </Bean>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>com.prgs.jdbc.db2.DB2Driver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-24</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.fw.util.beanwrapper.StringWrapper">
+                <string>C:\dlcv114\oeide\eclipse\plugins\com.progress.dbnavigator_3.2.1\drivers/pgdb2.jar</string>
+            </Bean>
+        </jarFileNames>
+        <name>IBM DB2 JDBC Driver (DataDirect)</name>
+        <url>jdbc:progress:db2://&lt;hostname&gt;:&lt;port&gt;;DatabaseName=&lt;dbname&gt;</url>
+    </Bean>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>com.prgs.jdbc.sqlserver.SQLServerDriver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-11</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.fw.util.beanwrapper.StringWrapper">
+                <string>C:\dlcv114\oeide\eclipse\plugins\com.progress.dbnavigator_3.2.1\drivers/pgsqlserver.jar</string>
+            </Bean>
+        </jarFileNames>
+        <name>Microsoft SQL Server JDBC Driver (DataDirect)</name>
+        <url>jdbc:progress:sqlserver://&lt;host_name&gt;:&lt;1433&gt;</url>
+    </Bean>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>com.prgs.jdbc.informix.InformixDriver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-5</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.fw.util.beanwrapper.StringWrapper">
+                <string>C:\dlcv114\oeide\eclipse\plugins\com.progress.dbnavigator_3.2.1\drivers/pginformix.jar</string>
+            </Bean>
+        </jarFileNames>
+        <name>Informix JDBC Driver (DataDirect)</name>
+        <url>jdbc:progress:informix://&lt;hostname&gt;:&lt;port&gt;</url>
+    </Bean>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>com.prgs.jdbc.sybase.SybaseDriver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-9</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.fw.util.beanwrapper.StringWrapper">
+                <string>C:\dlcv114\oeide\eclipse\plugins\com.progress.dbnavigator_3.2.1\drivers/pgsybase.jar</string>
+            </Bean>
+        </jarFileNames>
+        <name>Sybase JDBC Driver (DataDirect)</name>
+        <url>jdbc:progress:sybase://&lt;hostname&gt;:&lt;port&gt;/DatabaseName=&lt;dbname&gt;</url>
+    </Bean>
+</Beans>

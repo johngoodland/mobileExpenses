@@ -1,0 +1,922 @@
+{
+    "version": "1.2",
+    "lastModified": "Wed Nov 12 09:51:33 GMT 2014",
+    "services": [{
+        "name": "mobileexpenses",
+        "address": "\/rest\/mobileexpenses",
+        "useRequest": true,
+        "resources": [
+            {
+                "name": "Claims",
+                "path": "\/Claims",
+                "autoSave": true,
+                "schema": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {"eClaims": {
+                        "type": "array",
+                        "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "_id": {"type": "string"},
+                                "_errorString": {"type": "string"},
+                                "expenseDate": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseDate"
+                                },
+                                "expenseGroup": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseGroup"
+                                },
+                                "expenseType": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseType"
+                                },
+                                "expenseReason": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseReason"
+                                },
+                                "expenseAmount": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseAmount"
+                                },
+                                "expenseNotes": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseNotes"
+                                },
+                                "expenseMilesClaim": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseMilesClaim"
+                                },
+                                "expenseMilesRate": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseMilesRate"
+                                },
+                                "expenseFrom": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseFrom"
+                                },
+                                "expenseTo": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseTo"
+                                },
+                                "expenseImage": {
+                                    "type": "string",
+                                    "ablType": "CLOB",
+                                    "default": null,
+                                    "title": "expenseImage"
+                                },
+                                "expense_ID": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expense_ID"
+                                },
+                                "expenseStatus": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseStatus"
+                                },
+                                "expenseCharge": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseCharge"
+                                },
+                                "expensePurpose": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expensePurpose"
+                                },
+                                "expenseOOP": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseOOP"
+                                },
+                                "expensePayee": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expensePayee"
+                                },
+                                "expenseNoPeople": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseNoPeople"
+                                },
+                                "expenseNoNights": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseNoNights"
+                                },
+                                "expenseEveMeal": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseEveMeal"
+                                },
+                                "expenseBreak": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseBreak"
+                                },
+                                "expenseLunch": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseLunch"
+                                },
+                                "expenseVisit": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseVisit"
+                                },
+                                "expenseRound": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseRound"
+                                },
+                                "expenseVehicle": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseVehicle"
+                                },
+                                "expenseYTDMiles": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseYTDMiles"
+                                },
+                                "expensePeople": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expensePeople"
+                                },
+                                "expenseStoredJny": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseStoredJny"
+                                },
+                                "expenseOOPFlag": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseOOPFlag"
+                                },
+                                "expenseAddType": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseAddType"
+                                },
+                                "expenseAddChk": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseAddChk"
+                                },
+                                "expenseAddValue": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseAddValue"
+                                },
+                                "expenseAddResource": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseAddResource"
+                                },
+                                "expenseUserID": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseUserID"
+                                },
+                                "expenseFromDate": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseFromDate"
+                                },
+                                "expenseToDate": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseToDate"
+                                },
+                                "expenseUnitPrice": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseUnitPrice"
+                                },
+                                "expenseNoReceipt": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseNoReceipt"
+                                },
+                                "expenseGUID": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseGUID"
+                                },
+                                "expenseUsed": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseUsed"
+                                },
+                                "expenseTypeCode": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseTypeCode"
+                                },
+                                "expenseProject": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "expenseProject"
+                                }
+                            }
+                        }
+                    }}
+                },
+                "operations": [
+                    {
+                        "name": "FetchLockStatus",
+                        "path": "\/FetchLockStatus?filter={filter}",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [
+                            {
+                                "name": "pcFree",
+                                "type": "REQUEST_BODY"
+                            },
+                            {
+                                "name": "pcUsed",
+                                "type": "REQUEST_BODY"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TrackClaim",
+                        "path": "\/TrackClaim",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [
+                            {
+                                "name": "pcUserID",
+                                "type": "REQUEST_BODY"
+                            },
+                            {
+                                "name": "pcLineID",
+                                "type": "REQUEST_BODY"
+                            }
+                        ]
+                    },
+                    {
+                        "path": "?filter={filter}",
+                        "useBeforeImage": false,
+                        "type": "read",
+                        "verb": "get",
+                        "params": []
+                    },
+                    {
+                        "name": "CheckUpdates",
+                        "path": "\/CheckUpdates?filter={filter}",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [
+                            {
+                                "name": "pcLastGroup",
+                                "type": "REQUEST_BODY"
+                            },
+                            {
+                                "name": "pcLastType",
+                                "type": "REQUEST_BODY"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "SecurityTokenService",
+                "path": "\/SecurityTokenService",
+                "autoSave": true,
+                "operations": [{
+                    "name": "ValidateSession",
+                    "path": "\/ValidateSession",
+                    "useBeforeImage": false,
+                    "type": "invoke",
+                    "verb": "put",
+                    "params": [
+                        {
+                            "name": "pcUserID",
+                            "type": "REQUEST_BODY"
+                        },
+                        {
+                            "name": "pcKey",
+                            "type": "REQUEST_BODY"
+                        },
+                        {
+                            "name": "pcPassword",
+                            "type": "REQUEST_BODY"
+                        }
+                    ]
+                }]
+            },
+            {
+                "name": "eBISdata",
+                "path": "\/ebisdata",
+                "autoSave": true,
+                "schema": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {"eeBis": {
+                        "type": "array",
+                        "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "_id": {"type": "string"},
+                                "_errorString": {"type": "string"},
+                                "receiptDate": {
+                                    "type": "string",
+                                    "ablType": "DATE",
+                                    "default": null,
+                                    "title": "receiptDate",
+                                    "format": "date"
+                                },
+                                "receiptType": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptType"
+                                },
+                                "receiptReason": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptReason"
+                                },
+                                "receiptAmount": {
+                                    "type": "number",
+                                    "ablType": "DECIMAL",
+                                    "default": 0,
+                                    "title": "receiptAmount"
+                                },
+                                "receiptNotes": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptNotes"
+                                },
+                                "receiptMilesClaim": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "receiptMilesClaim"
+                                },
+                                "receiptMilesRate": {
+                                    "type": "number",
+                                    "ablType": "DECIMAL",
+                                    "default": 0,
+                                    "title": "receiptMilesRate"
+                                },
+                                "receiptFrom": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptFrom"
+                                },
+                                "receiptTo": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptTo"
+                                },
+                                "receiptReturnTrip": {
+                                    "type": "boolean",
+                                    "ablType": "LOGICAL",
+                                    "default": false,
+                                    "title": "receiptReturnTrip"
+                                },
+                                "receiptFromDate": {
+                                    "type": "string",
+                                    "ablType": "DATE",
+                                    "default": null,
+                                    "title": "receiptFromDate",
+                                    "format": "date"
+                                },
+                                "receiptToDate": {
+                                    "type": "string",
+                                    "ablType": "DATE",
+                                    "default": null,
+                                    "title": "receiptToDate",
+                                    "format": "date"
+                                },
+                                "receiptNoNights": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "receiptNoNights"
+                                }
+                            }
+                        }
+                    }}
+                },
+                "operations": [
+                    {
+                        "path": "",
+                        "useBeforeImage": false,
+                        "type": "update",
+                        "verb": "put",
+                        "params": [{
+                            "name": "eeBis",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "?filter={filter}",
+                        "useBeforeImage": false,
+                        "type": "read",
+                        "verb": "get",
+                        "params": []
+                    },
+                    {
+                        "name": "CaptureExpense",
+                        "path": "\/CaptureExpense?filter={filter}",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [{
+                            "name": "pcMobileData",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "",
+                        "useBeforeImage": false,
+                        "type": "delete",
+                        "verb": "delete",
+                        "params": [{
+                            "name": "eeBis",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "",
+                        "useBeforeImage": false,
+                        "type": "create",
+                        "verb": "post",
+                        "params": [{
+                            "name": "eeBis",
+                            "type": "REQUEST_BODY"
+                        }]
+                    }
+                ]
+            },
+            {
+                "name": "getFormData",
+                "path": "\/getFormData",
+                "autoSave": true,
+                "schema": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {"dsFormData": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "eGroup": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "cGroup": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cGroup"
+                                        },
+                                        "cDescription": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cDescription"
+                                        },
+                                        "cType": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cType"
+                                        },
+                                        "cPolicyLink": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cPolicyLink"
+                                        },
+                                        "cRecModLast": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cRecModLast"
+                                        }
+                                    }
+                                }
+                            },
+                            "eFields": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "cGroup": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cGroup"
+                                        },
+                                        "iFieldOrder": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iFieldOrder"
+                                        },
+                                        "cFieldName": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cFieldName"
+                                        },
+                                        "cFieldLabel": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cFieldLabel"
+                                        },
+                                        "cFieldDataType": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cFieldDataType"
+                                        },
+                                        "cFieldMandatory": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cFieldMandatory"
+                                        },
+                                        "cFieldHidden": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cFieldHidden"
+                                        }
+                                    }
+                                }
+                            },
+                            "eRules": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "cGroup": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cGroup"
+                                        },
+                                        "ttrRule": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "ttrRule"
+                                        },
+                                        "ttrLeftSide": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "ttrLeftSide"
+                                        },
+                                        "ttrOperand": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "ttrOperand"
+                                        },
+                                        "ttrRightSide": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "ttrRightSide"
+                                        },
+                                        "ttrMessage": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "ttrMessage"
+                                        }
+                                    }
+                                }
+                            },
+                            "eTypes": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "cGroup": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cGroup"
+                                        },
+                                        "cType": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cType"
+                                        },
+                                        "cDescription": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cDescription"
+                                        },
+                                        "cTypePrice": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cTypePrice"
+                                        },
+                                        "cTypeMax": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cTypeMax"
+                                        },
+                                        "cRecModLast": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cRecModLast"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }}
+                },
+                "relations": [
+                    {
+                        "relationName": "eGroup",
+                        "parentName": "eGroup",
+                        "childName": "eRules",
+                        "relationFields": [{
+                            "parentFieldName": "cGroup",
+                            "childFieldName": "cGroup"
+                        }]
+                    },
+                    {
+                        "relationName": "eGroup",
+                        "parentName": "eGroup",
+                        "childName": "eFields",
+                        "relationFields": [{
+                            "parentFieldName": "cGroup",
+                            "childFieldName": "cGroup"
+                        }]
+                    },
+                    {
+                        "relationName": "eGroup",
+                        "parentName": "eGroup",
+                        "childName": "eTypes",
+                        "relationFields": [{
+                            "parentFieldName": "cGroup",
+                            "childFieldName": "cGroup"
+                        }]
+                    }
+                ],
+                "operations": [{
+                    "path": "?filter={filter}",
+                    "useBeforeImage": false,
+                    "type": "read",
+                    "verb": "get",
+                    "params": []
+                }]
+            },
+            {
+                "name": "getTypes",
+                "path": "\/getTypes",
+                "autoSave": true,
+                "schema": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {"eTypes": {
+                        "type": "array",
+                        "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "_id": {"type": "string"},
+                                "_errorString": {"type": "string"},
+                                "cGroup": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cGroup"
+                                },
+                                "cType": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cType"
+                                },
+                                "cDescription": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cDescription"
+                                },
+                                "cTypePrice": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cTypePrice"
+                                },
+                                "cTypeMax": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cTypeMax"
+                                },
+                                "cRecModLast": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cRecModLast"
+                                }
+                            }
+                        }
+                    }}
+                },
+                "operations": [{
+                    "path": "?filter={filter}",
+                    "useBeforeImage": false,
+                    "type": "read",
+                    "verb": "get",
+                    "params": []
+                }]
+            },
+            {
+                "name": "manage",
+                "path": "\/manage",
+                "autoSave": true,
+                "schema": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {"eeBis": {
+                        "type": "array",
+                        "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "_id": {"type": "string"},
+                                "_errorString": {"type": "string"},
+                                "receiptDate": {
+                                    "type": "string",
+                                    "ablType": "DATE",
+                                    "default": null,
+                                    "title": "receiptDate",
+                                    "format": "date"
+                                },
+                                "receiptType": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptType"
+                                },
+                                "receiptReason": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptReason"
+                                },
+                                "receiptAmount": {
+                                    "type": "number",
+                                    "ablType": "DECIMAL",
+                                    "default": 0,
+                                    "title": "receiptAmount"
+                                },
+                                "receiptNotes": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptNotes"
+                                },
+                                "receiptMilesClaim": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "receiptMilesClaim"
+                                },
+                                "receiptMilesRate": {
+                                    "type": "number",
+                                    "ablType": "DECIMAL",
+                                    "default": 0,
+                                    "title": "receiptMilesRate"
+                                },
+                                "receiptFrom": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptFrom"
+                                },
+                                "receiptTo": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "receiptTo"
+                                },
+                                "receiptReturnTrip": {
+                                    "type": "boolean",
+                                    "ablType": "LOGICAL",
+                                    "default": false,
+                                    "title": "receiptReturnTrip"
+                                },
+                                "receiptFromDate": {
+                                    "type": "string",
+                                    "ablType": "DATE",
+                                    "default": null,
+                                    "title": "receiptFromDate",
+                                    "format": "date"
+                                },
+                                "receiptToDate": {
+                                    "type": "string",
+                                    "ablType": "DATE",
+                                    "default": null,
+                                    "title": "receiptToDate",
+                                    "format": "date"
+                                },
+                                "receiptNoNights": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "receiptNoNights"
+                                }
+                            }
+                        }
+                    }}
+                },
+                "operations": [{
+                    "path": "\/ping",
+                    "useBeforeImage": false,
+                    "type": "read",
+                    "verb": "get",
+                    "params": []
+                }]
+            }
+        ]
+    }]
+}

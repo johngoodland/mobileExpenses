@@ -1,0 +1,375 @@
+.ui-title {
+margin: .8em 20% .8em!important; } 
+.option
+{
+  position: fixed; 
+  z-index: 2;
+  top:32px; 
+  right:45px;  
+  display: inline-block;
+} 
+.bold-list 
+{
+font-family: Helvetica-Bold, Helvetica-BoldOblique, AmericanTypewriter-Bold, Impact, fantasy;
+font-weight: bold!important;
+}
+
+.mobileContent
+{
+ 
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 100%;
+	
+  /* Set up proportionate scaling */
+  width: auto;
+ height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  //top: 0;
+//  left: 0;
+}
+ 
+.buttonAdd
+{
+ //background-image:url(UIButtonBarAction.jpg);
+  //  min-width: 1.8em;
+ // height: 1.8em;
+      border-color: none;
+}
+.UITest {
+ 
+   display:none;
+	}
+.btnSettings 
+{
+    position:fixed;
+    top:92.0%; 
+  right:1%;      
+}
+.ui-btn-text
+{
+    z-index:999;
+}
+.buttonRefresh
+{
+    position:fixed;
+    top:93.2%; 
+  left:1%;      
+}
+.mobileFooterx
+{
+   background:white !important;  
+ //   background: black;
+}
+
+.buttonCamera
+{
+  position:fixed;
+  top:90%; 
+  right:45% ;   
+  min-width: 2.5em;
+  height: 2.2em;
+  border-color: #333;
+ 
+   
+}
+.buttoneBIS
+{
+    min-width: 2.1em;
+  height: 2.1em;
+  //border-color: #333;  
+
+}
+.mobilebuttonDelete
+{
+ position:fixed;
+ //top:91.5%; 
+ right:15% ;   
+ min-width: 2.0em;
+ height: 2.0em;
+}
+.mobilebuttonCopy
+{
+ position:fixed;
+//top:91.5%; 
+ right:75% ;   
+  min-width: 2.0em;
+  height: 2.0em;
+}
+.mobilebuttonFav   
+{
+  position:fixed;  
+  right:45% ;
+  min-width: 2.0em;
+  height: 2.0em;
+    
+}
+.mobilebuttonCamerax
+{
+  position:fixed;  
+  right:55% ;
+  min-width: 2.0em;
+  height: 2.0em;  
+}
+.buttonDelete
+{
+ position:fixed;
+ //top:91.5%; 
+ right:80% ;   
+ min-width: 2.0em;
+ height: 2.0em;
+}
+.buttonCopy
+{
+ position:fixed;
+//top:91.5%; 
+ right:8% ;   
+  min-width: 2.0em;
+  height: 2.0em;
+}
+.buttonFav   
+{
+  position:fixed;  
+  right:32% ;
+  min-width: 2.0em;
+  height: 2.0em;
+    
+}
+.btnCamera
+{
+  position:fixed;  
+  right:55% ;
+  min-width: 2.0em;
+  height: 2.0em;  
+}
+.mobileFav
+{
+  height: 2.0em;
+  min-width: 2.1em;
+}
+.ui-input-search
+{
+    width: 35% !important;   
+     //padding: 0.5em 2!important; 
+    left:2%;
+     display: inline-block;
+     height: 2em;
+}
+.mobileselectmenu1_2180
+{   
+ 
+      right:3%;   
+     position:fixed;
+    display: inline-block;
+    
+}
+.mobilebutton_calc
+{
+// border-color: #333;
+// color: black;
+}
+.textAreaNone
+{
+  
+   background:#ffffff;
+   font-size: 18px; margin: 0; text-align: center; color: #000000 ; font-color: #000000 ; 
+   font-weight:bolder;
+ //  border: none;
+ //  outline: none;
+ //  border: false;
+ //  font-family: Tahoma, sans-serif;
+   height: 60px !important;
+}
+ 
+#mainContent
+{
+     font-size: 12px; margin: 0; text-align: center; color: #000000 ; font-color: #000000 ;  
+}
+
+.mobileAboutUs
+{
+   min-width: 1.8em;
+   height: 1.4em;  
+}
+.mobileFav
+{
+   min-width: 1.8em;
+    height: 1.8em;  
+border-color: #333;
+ 
+ ;
+}
+.mobileUserSettings
+{
+       min-width: 1.8em;
+ height: 1.8em;  
+ border-color: #333;
+}
+.buttonCancel
+{
+ color: white;
+ font-weight: bold;
+ text-shadow: 0 -1px 1px #711414;
+ background-image: -moz-linear-gradient(top, #DADADA, #343438);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DADADA), color-stop(1, #343438));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#DADADA', EndColorStr='#343438')"; 
+}
+ 
+
+.buttonCancel:hover
+{
+ color: blue;
+  
+}
+.toast {display: none; position: fixed; z-index: 99999; width: 100%; text-align: center; bottom: 3em;}
+.toast .message {display: inline-block; color: #fff ; padding: 5px; border-radius: 5px; box-shadow: 2px 2px 2px #666 ; -webkit-box-shadow: 2px 2px 2px #666 ; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; background: #282324 ; background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, #554434 ), color-stop(1, #282324 ));}
+
+.buttonOK
+{
+  border-color: #333; 
+ color: white;
+ font-weight: bold;
+ text-shadow: 0 -1px 1px #711414;
+ background-image: -moz-linear-gradient(top, #5ec45e, #399e39);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5ec45e), color-stop(1, #399e39));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#5ec45e', EndColorStr='#399e39')"; 
+}
+.buttonReject
+{
+  
+ color: white;
+ font-weight: bold;
+ text-shadow: 0 -1px 1px #711414;
+ background-image: -moz-linear-gradient(top, #c45e5e, #9e3939);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c45e5e), color-stop(1, #9e3939));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#c45e5e', EndColorStr='#9e3939')"; 
+}
+
+.mobilegridTest
+{
+       position:absolute;
+       TOP:13%;
+       LEFT:1px;
+} 
+  
+ 
+.mobileAmount
+{
+ font-weight: bold;
+ color: black;
+  
+}
+.buttonQuestion
+{
+ color: white;
+ font-weight: bold;
+ text-shadow: 0 -1px 1px #711414;
+ background-image: -moz-linear-gradient(top, #69D6FF, #1C487D);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #69D6FF), color-stop(1, #1C487D));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#69D6FF', EndColorStr='#1C487D')";  
+}
+.buttonQuestion:hover
+{
+     color: black;
+  
+}
+
+ 
+
+.aDeleteBtn {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	float: right;
+	//height: 10px;
+	//line-height: 10px;
+	margin: 10px 10px 0 0;
+	//padding: 0.6em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+.aMoreBtn {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	float: right;
+	//height: 10px;
+	//line-height: 10px;
+	margin: 10px 80px 0 0;
+	//padding: 0.6em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+.aCopyBtn {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	float: right;
+	//height: 10px;
+	//line-height: 10px;
+	margin: 10px 10px 0 0;
+	//padding: 0.6em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+/* red color buttons */
+
+.ui-btn-up-r { border: 1px solid #953403; background: #2567ab; font-weight: bold; color: #fff; cursor: pointer;  text-shadow: 0 -1px 1px #953403; text-decoration: none; background-image: -moz-linear-gradient(top, #ec4a0b, #ad390c); background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ec4a0b),color-stop(1, #ad390c));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ec4a0b', EndColorStr='#ad390c')"; }
+ 
+.ui-btn-up-r a.ui-link-inherit { color: #fff; }
+ 
+.ui-btn-hover-r { border: 1px solid #953403; background: #f15c22; font-weight: bold; color: #fff;  text-shadow: 0 -1px 1px #014D68; background-image: -moz-linear-gradient(top, #f15c22, #f15c22); text-decoration: none; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f15c22),color-stop(1, #f15c22));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f15c22', EndColorStr='#f15c22')";  }
+  
+.ui-btn-hover-r a.ui-link-inherit { color: #fff; }
+ 
+.ui-btn-down-r { border: 1px solid #225377; background: #79ae21; font-weight: bold; color: #fff; text-shadow: 0 -1px 1px #225377; background-image: -moz-linear-gradient(top, #bc770f, #e6590c); background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #bc770f),color-stop(1, #e6590c));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#bc770f', EndColorStr='#e6590c')"; }
+ 
+.ui-btn-down-r a.ui-link-inherit { color: #fff; }
+ 
+.ui-btn-up-r, .ui-btn-hover-r, .ui-btn-down-r { font-family: Helvetica, Arial, sans-serif; }
+
+/* grey color buttons */
+
+.ui-btn-up-grey { border: 1px solid #1A1919; background: #2567ab; font-weight: bold; color: #000000; cursor: pointer;  text-shadow: 0 -1px 1px #141414; text-decoration: none; background-image: -moz-linear-gradient(top, #F2EFED, #CCC9C8); background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #F2EFED),color-stop(1, #CCC9C8));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F2EFED', EndColorStr='#CCC9C8')"; }
+ 
+.ui-btn-up-grey a.ui-link-inherit { color: #EDE6E6; }
+ 
+.ui-btn-hover-grey { border: 1px solid #953403; background: #f15c22; font-weight: bold; color: #EDE6E6;  text-shadow: 0 -1px 1px #014D68; background-image: -moz-linear-gradient(top, #f15c22, #f15c22); text-decoration: none; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f15c22),color-stop(1, #f15c22));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f15c22', EndColorStr='#f15c22')";  }
+  
+.ui-btn-hover-grey a.ui-link-inherit { color: #EDE6E6; }
+ 
+.ui-btn-down-grey { border: 1px solid #225377; background: #79ae21; font-weight: bold; color: #EDE6E6; text-shadow: 0 -1px 1px #225377; background-image: -moz-linear-gradient(top, #bc770f, #e6590c); background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #bc770f),color-stop(1, #e6590c));   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#bc770f', EndColorStr='#e6590c')"; }
+ 
+.ui-btn-down-grey a.ui-link-inherit { color: #EDE6E6; }
+ 
+.ui-btn-up-grey, .ui-btn-hover-grey, .ui-btn-down-grey { font-family: Helvetica, Arial, sans-serif; }
+
+li[data-swipeurl] .aSwipeBtn {
+	margin: 30px;
+	float: right;
+	font-size: 12px;
+	margin: 4px 4px 0 0 !important;
+	padding: 0;
+	z-index: 100;
+	border-radius: .5em;
+
+
+	float: right;
+}
+	li[data-swipeurl] .aSwipeBtn .ui-btn-inner {
+		padding: 0.6em .9em !important;
+	}
+	li[data-swipeurl] .aSwipeBtn span.ui-btn-inner {
+        text-overflow: clip;
+    }
+	li[data-swipeurl] .aSwipeBtn .ui-btn-corner-all {
+		border-radius: .5em;
+	}
+
+
+ 

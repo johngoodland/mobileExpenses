@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            home
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent"
+        />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/winter/winter.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.2.0/jquery.mobile.structure-1.2.0.min.css"
+        rel="stylesheet" />
+        <!-- css -->
+        <link type="text/css" href="files/views/assets/css/ebis.css" rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.indexOf("Android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.2.0/jquery.mobile-1.2.0.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/tiggzi.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/progress/jsdo/progress.session.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/progress/jsdo/progress.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/myGrid.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/ebisjs.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDO.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDOCreate.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDODelete.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDOInvoke.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDORead.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDOUpdate.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/JSDORow.js">
+        </script>
+        <link href="home.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="home.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        $(document).bind("mobileinit", function()
+        {
+            $.mobile.page.prototype.options.degradeInputs.date = true;
+        });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="home" id="j_69" class="type-interior"
+        data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <div data-role="header" data-position="inline" data-theme="b" name="mobileheader1"
+            id="j_2" class='mobileHeader mobileheader3 '>
+                <h1 dsid="mobileheader1">
+                    eBIS-Mobile
+                </h1>
+                <!-- mobilebutton1_4 -->
+                <a data-role="button" name="mobilebutton1_4" dsid="mobilebutton1_4" class='ui-btn-left  button mobilebutton5'
+                id='j_70' data-corners='true' data-icon='search' data-iconpos='left' data-inline='true'
+                data-mini='true' data-theme="b" tabIndex="1">
+                Sort By
+                </a>
+                <!-- buttonAdd -->
+                <a data-role="button" name="buttonAdd" dsid="buttonAdd" class='ui-btn-right  buttonAdd mobilebutton6'
+                style='min-height:20px; ' id='j_71' data-corners='true' data-iconpos='notext' data-inline='true'
+                data-mini='true' data-theme="b" tabIndex="2">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer1 -->
+            <div data-role="content" id="j_3" name="mobilecontainer1" class="mobileContent mobilecontainer3"
+            dsid="mobilecontainer1" data-theme=''>
+                <!-- myGrid -->
+                <div class="mobilegrid3_wrapper">
+                    <table id="j_72" class="mobilegrid mobilegrid3" dsid="myGrid" name="myGrid" cellpadding=0
+                    cellspacing=0>
+                        <col style="width:56px;" />
+                        <col style="width:73px;" />
+                        <col style="width:90px;" />
+                        <col style="width:50px;" />
+                        <col style="width:4px;" />
+                        <col style="width:auto;" />
+                        <tr class="mobilegrid3_row_0">
+                            <!-- mobilegridcell_40 -->
+                            <td id="j_73" name="mobilegridcell_40" class="mobilegridcell27" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_44 -->
+                            <td id="j_74" name="mobilegridcell_44" class="mobilegridcell28" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_46 -->
+                            <td id="j_75" name="mobilegridcell_46" class="mobilegridcell29" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_48 -->
+                            <td id="j_76" name="mobilegridcell_48" class="mobilegridcell30" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_49 -->
+                            <td id="j_77" name="mobilegridcell_49" class="mobilegridcell31" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_50 -->
+                            <td id="j_78" name="mobilegridcell_50" class="mobilegridcell32" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilegrid_51 -->
+                <div class="mobilegrid4_wrapper">
+                    <table id="j_79" class="mobilegridTest mobilegrid4" dsid="mobilegrid_51" name="mobilegrid_51"
+                    cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <tr class="mobilegrid4_row_0">
+                            <!-- mobilegridcell_52 -->
+                            <td id="j_80" name="mobilegridcell_52" class="mobilegridcell33" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilegroupedbuttons1_38 -->
+                                    <div data-role="controlgroup" data-mini='false' name="mobilegroupedbuttons1_38"
+                                    id="j_81" dsid="mobilegroupedbuttons1_38">
+                                        <!-- mobileDelete -->
+                                        <a data-role="button" name="mobileDelete" dsid="mobileDelete" class=' buttonQuestion mobilebutton7'
+                                        id='j_82' data-corners='true' data-icon='delete' data-iconpos='right' data-theme="f"
+                                        tabIndex="3" reRender='mobilegroupedbuttons1_38'>
+                                        Delete ALL
+                                        </a>
+                                        <!-- mobileUpload -->
+                                        <a data-role="button" name="mobileUpload" dsid="mobileUpload" class=' buttonQuestion mobilebutton8'
+                                        id='j_83' data-corners='true' data-icon='plus' data-iconpos='right' data-theme="f"
+                                        tabIndex="4" reRender='mobilegroupedbuttons1_38'>
+                                        Upload to eBIS
+                                        </a>
+                                        <!-- mobileCancel_1 -->
+                                        <a data-role="button" name="mobileCancel_1" dsid="mobileCancel_1" class=' buttonCancel mobilebutton9'
+                                        id='j_84' data-corners='true' data-icon='back' data-iconpos='right' data-theme="f"
+                                        tabIndex="5" reRender='mobilegroupedbuttons1_38'>
+                                        Cancel
+                                        </a>
+                                    </div>
+                                    <!-- mobilebuttonsCamera -->
+                                    <div data-role="controlgroup" data-mini='false' name="mobilebuttonsCamera" id="j_85"
+                                    dsid="mobilebuttonsCamera">
+                                        <!-- mobilebuttonTake -->
+                                        <a data-role="button" name="mobilebuttonTake" dsid="mobilebuttonTake" class=' buttonQuestion mobilebutton10'
+                                        id='j_86' data-corners='true' data-theme="f" tabIndex="6" reRender='mobilebuttonsCamera'>
+                                        Take Photo
+                                        </a>
+                                        <!-- mobilebuttonLibrary -->
+                                        <a data-role="button" name="mobilebuttonLibrary" dsid="mobilebuttonLibrary" class=' buttonQuestion mobilebutton11'
+                                        id='j_87' data-corners='true' data-theme="f" tabIndex="7" reRender='mobilebuttonsCamera'>
+                                        Choose from Library
+                                        </a>
+                                        <!-- mobilebuttonMiles -->
+                                        <a data-role="button" name="mobilebuttonMiles" dsid="mobilebuttonMiles" class=' buttonQuestion mobilebutton12'
+                                        id='j_88' data-corners='true' data-theme="f" tabIndex="8" reRender='mobilebuttonsCamera'>
+                                        Record Mileage
+                                        </a>
+                                        <!-- mobileCancel -->
+                                        <a data-role="button" name="mobileCancel" dsid="mobileCancel" class=' buttonCancel mobilebutton13'
+                                        id='j_89' data-corners='true' data-icon='back' data-iconpos='right' data-theme="f"
+                                        tabIndex="9" reRender='mobilebuttonsCamera'>
+                                        Cancel
+                                        </a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter1 -->
+            <div data-role="footer" data-position="fixed" class="mobileFooter mobilefooter3"
+            name="mobilefooter1" dsid="mobilefooter1" id="j_39" data-theme="b">
+                <!-- buttonCamera -->
+                <a data-role="button" name="buttonCamera" dsid="buttonCamera" class=' buttonCamera mobilebutton14'
+                style='min-height:16px;margin-left:5px; ' id='j_90' data-corners='true' data-inline='true'
+                data-mini='true' data-theme="b" tabIndex="10" align="right">
+                &nbsp;
+                </a>
+                <!-- btnSettings -->
+                <a data-role="button" name="btnSettings" dsid="btnSettings" class=' btnSettings mobilebutton15'
+                style='margin-left:5px; ' id='j_91' data-corners='true' data-icon='gear' data-iconpos='left'
+                data-inline='true' data-mini='true' data-theme="b" tabIndex="11">
+                Settings 
+                </a>
+            </div>
+        </div>
+        <div data-role="page" style="min-height:480px;" dsid="ebisMileageExpense" id="j_0"
+        class="type-interior" data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <div data-role="header" data-position="inline" data-theme="b" name="mobileheader1"
+            id="j_2" class='mobileHeader mobileheader1 '>
+                <h1 dsid="mobileheader1">
+                    Mileage Claim
+                </h1>
+            </div>
+            <!-- mobilecontainer1 -->
+            <div data-role="content" id="j_3" name="mobilecontainer1" class="mobileContent mobilecontainer1"
+            dsid="mobilecontainer1" data-theme=''>
+                <!-- mobilegrid_40 -->
+                <div class="mobilegrid1_wrapper">
+                    <table id="j_4" class="mobilegrid mobilegrid1" dsid="mobilegrid_40" name="mobilegrid_40"
+                    cellpadding=0 cellspacing=0>
+                        <col style="width:69px;" />
+                        <col style="width:auto;" />
+                        <tr class="mobilegrid1_row_0">
+                            <!-- mobilegridcell_41 -->
+                            <td id="j_5" name="mobilegridcell_41" class="mobilegridcell1" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_61 -->
+                                    <div name="mobilelabel1_61" id="j_6" dsid="mobilelabel1_61" data-role="tiggr_label"
+                                    class='labelClass mobilelabel1 '>
+                                        Date
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_42 -->
+                            <td id="j_7" name="mobilegridcell_42" class="mobilegridcell2" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobiledate -->
+                                    <div data-role="fieldcontain" id="j_8" dsid="mobiledate" name="mobiledate" tiggzitype="object"
+                                    tiggziclass="datepicker" data-theme="b" class=' mobiledatepicker1 '>
+                                        <div class="datePickerControls">
+                                            <a title="Open Date Picker" class="datepickeropenbutton ui-input-clear ui-btn ui-body ui-body-b
+                                            ui-btn-up-b ui-btn-icon-notext ui-btn-corner-all ui-shadow" href="#" data-theme="b" style="margin-top:3px; vertical-align: middle; display: inline-block;">
+                                            <span class="ui-btn-inner ui-btn-corner-all">
+                                            <span class="ui-btn-text">Open Date Picker</span>
+                                            <span class="ui-icon ui-icon-grid ui-icon-shadow"></span>
+                                            </span>
+                                            </a>
+                                            <div class="inputContainer">
+                                                <input type="text" data-theme="b" value="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid1_row_1">
+                            <!-- mobilegridcell_43 -->
+                            <td id="j_9" name="mobilegridcell_43" class="mobilegridcell3" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_63 -->
+                                    <div name="mobilelabel1_63" id="j_10" dsid="mobilelabel1_63" data-role="tiggr_label"
+                                    class='labelClass mobilelabel2 '>
+                                        Reason
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_44 -->
+                            <td id="j_11" name="mobilegridcell_44" class="mobilegridcell4" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileReason -->
+                                    <div data-role="fieldcontain" class="mobiletextinput1 ">
+                                        <input type="text" name="mobileReason" dsid="mobileReason" id="j_12" value="" tabIndex="2"
+                                        data-theme="b" data-mini='true' class=' mobiletextinput1 ' />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid1_row_2">
+                            <!-- mobilegridcell_45 -->
+                            <td id="j_13" name="mobilegridcell_45" class="mobilegridcell5" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_64 -->
+                                    <div name="mobilelabel1_64" id="j_14" dsid="mobilelabel1_64" data-role="tiggr_label"
+                                    class='labelClass mobilelabel3 '>
+                                        Miles Claimed
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_46 -->
+                            <td id="j_15" name="mobilegridcell_46" class="mobilegridcell6" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileMiles -->
+                                    <div data-role="fieldcontain" class="mobiletextinput2 ">
+                                        <input type="text" name="mobileMiles" dsid="mobileMiles" id="j_16" value="" tabIndex="3"
+                                        data-theme="b" data-mini='true' class=' mobiletextinput2 ' />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid1_row_3">
+                            <!-- mobilegridcell_47 -->
+                            <td id="j_17" name="mobilegridcell_47" class="mobilegridcell7" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_65 -->
+                                    <div name="mobilelabel1_65" id="j_18" dsid="mobilelabel1_65" data-role="tiggr_label"
+                                    class='labelClass mobilelabel4 '>
+                                        Rate Per Mile
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_48 -->
+                            <td id="j_19" name="mobilegridcell_48" class="mobilegridcell8" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileRate -->
+                                    <div data-role="fieldcontain" class="mobiletextinput3 ">
+                                        <input type="text" name="mobileRate" dsid="mobileRate" id="j_20" value="" tabIndex="4"
+                                        data-theme="b" data-mini='true' class=' mobiletextinput3 ' />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid1_row_4">
+                            <!-- mobilegridcell_49 -->
+                            <td id="j_21" name="mobilegridcell_49" class="mobilegridcell9" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_66 -->
+                                    <div name="mobilelabel1_66" id="j_22" dsid="mobilelabel1_66" data-role="tiggr_label"
+                                    class='labelClass mobilelabel5 '>
+                                        Amount
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_50 -->
+                            <td id="j_23" name="mobilegridcell_50" class="mobilegridcell10" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileAmount -->
+                                    <div data-role="fieldcontain" class="mobiletextinput4 ">
+                                        <input type="text" name="mobileAmount" dsid="mobileAmount" id="j_24" value="" tabIndex="5"
+                                        data-theme="b" data-mini='true' class=' mobiletextinput4 ' />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid1_row_5">
+                            <!-- mobilegridcell_51 -->
+                            <td id="j_25" name="mobilegridcell_51" class="mobilegridcell11" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_67 -->
+                                    <div name="mobilelabel1_67" id="j_26" dsid="mobilelabel1_67" data-role="tiggr_label"
+                                    class='labelClass mobilelabel6 '>
+                                        From
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_52 -->
+                            <td id="j_27" name="mobilegridcell_52" class="mobilegridcell12" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileFrom -->
+                                    <div data-role="fieldcontain" class="mobiletextinput5 ">
+                                        <input type="text" name="mobileFrom" dsid="mobileFrom" id="j_28" value=" " tabIndex="6"
+                                        data-theme="b" data-mini='true' class=' mobiletextinput5 ' />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid1_row_6">
+                            <!-- mobilegridcell_53 -->
+                            <td id="j_29" name="mobilegridcell_53" class="mobilegridcell13" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_68 -->
+                                    <div name="mobilelabel1_68" id="j_30" dsid="mobilelabel1_68" data-role="tiggr_label"
+                                    class='labelClass mobilelabel7 '>
+                                        To
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_54 -->
+                            <td id="j_31" name="mobilegridcell_54" class="mobilegridcell14" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileTo -->
+                                    <div data-role="fieldcontain" class="mobiletextinput6 ">
+                                        <input type="text" name="mobileTo" dsid="mobileTo" id="j_32" value=" " tabIndex="7"
+                                        data-theme="b" data-mini='true' class=' mobiletextinput6 ' />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid1_row_7">
+                            <!-- mobilegridcell_55 -->
+                            <td id="j_33" name="mobilegridcell_55" class="mobilegridcell15" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_69 -->
+                                    <div name="mobilelabel1_69" id="j_34" dsid="mobilelabel1_69" data-role="tiggr_label"
+                                    class='labelClass mobilelabel8 '>
+                                        Notes
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_56 -->
+                            <td id="j_35" name="mobilegridcell_56" class="mobilegridcell16" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileNotes -->
+                                    <div data-role="fieldcontain" class="mobiletextarea1 ">
+                                        <textarea name="mobileNotes" id="j_36" data-mini='true' tabIndex="8" dsid="mobileNotes"
+                                        data-theme="b" class='textarea mobiletextarea1 '> 
+</textarea>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobileOK -->
+                <a data-role="button" name="mobileOK" dsid="mobileOK" class=' buttonOK mobilebutton1'
+                id='j_37' data-corners='true' data-inline='true' data-mini='false' data-theme="b"
+                tabIndex="9">
+                OK
+                </a>
+                <!-- mobilebutton1_60 -->
+                <a data-role="button" name="mobilebutton1_60" dsid="mobilebutton1_60" class=' buttonReject mobilebutton2'
+                id='j_38' data-corners='true' data-inline='true' data-mini='false' data-theme="b"
+                tabIndex="10">
+                Reject
+                </a>
+            </div>
+        </div>
+        <div data-role="page" style="min-height:480px;" dsid="ebisCameraExpense" id="j_42"
+        class="type-interior" data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <div data-role="header" data-position="inline" data-theme="b" name="mobileheader1"
+            id="j_2" class='mobileHeader mobileheader2 '>
+                <h1 dsid="mobileheader1">
+                    Receipt Upload
+                </h1>
+            </div>
+            <!-- mobilecontainer1 -->
+            <div data-role="content" id="j_3" name="mobilecontainer1" class="mobileContent mobilecontainer2"
+            dsid="mobilecontainer1" data-theme=''>
+                <!-- mobilegrid_83 -->
+                <div class="mobilegrid2_wrapper">
+                    <table id="j_46" class="mobilegrid mobilegrid2" dsid="mobilegrid_83" name="mobilegrid_83"
+                    cellpadding=0 cellspacing=0>
+                        <col style="width:68px;" />
+                        <col style="width:auto;" />
+                        <tr class="mobilegrid2_row_0">
+                            <!-- mobilegridcell_84 -->
+                            <td id="j_47" name="mobilegridcell_84" class="mobilegridcell17" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_97 -->
+                                    <div name="mobilelabel1_97" id="j_48" dsid="mobilelabel1_97" data-role="tiggr_label"
+                                    class='labelClass mobilelabel9 '>
+                                        Date
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_85 -->
+                            <td id="j_49" name="mobilegridcell_85" class="mobilegridcell18" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobiledate -->
+                                    <div data-role="fieldcontain" id="j_50" dsid="mobiledate" name="mobiledate" tiggzitype="object"
+                                    tiggziclass="datepicker" data-theme="b" class=' mobiledatepicker2 '>
+                                        <div class="datePickerControls">
+                                            <a title="Open Date Picker" class="datepickeropenbutton ui-input-clear ui-btn ui-body ui-body-b
+                                            ui-btn-up-b ui-btn-icon-notext ui-btn-corner-all ui-shadow" href="#" data-theme="b" style="margin-top:3px; vertical-align: middle; display: inline-block;">
+                                            <span class="ui-btn-inner ui-btn-corner-all">
+                                            <span class="ui-btn-text">Open Date Picker</span>
+                                            <span class="ui-icon ui-icon-grid ui-icon-shadow"></span>
+                                            </span>
+                                            </a>
+                                            <div class="inputContainer">
+                                                <input type="text" data-theme="b" value="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid2_row_1">
+                            <!-- mobilegridcell_86 -->
+                            <td id="j_51" name="mobilegridcell_86" class="mobilegridcell19" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_102 -->
+                                    <div name="mobilelabel1_102" id="j_52" dsid="mobilelabel1_102" data-role="tiggr_label"
+                                    class='labelClass mobilelabel10 '>
+                                        Type
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_87 -->
+                            <td id="j_53" name="mobilegridcell_87" class="mobilegridcell20" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileType -->
+                                    <div data-role="fieldcontain" class="mobileselectmenu1 " style="display: inline-block;">
+                                        <select name="mobileType" id="j_54" dsid="mobileType" data-theme="b" data-inline='true'
+                                        data-mini='true' data-icon='arrow-r' data-iconpos='right' data-native-menu="false"
+                                        tabIndex="4" tiggzi-class="mobileselectmenu1">
+                                            <option value='Air Fares' reRender='mobileType' dsid='mobileType-0'>
+                                                Air Fares
+                                            </option>
+                                            <option value='Car Parking' reRender='mobileType' dsid='mobileType-1'>
+                                                Car Parking
+                                            </option>
+                                            <option value='Subsistence' reRender='mobileType' dsid='mobileType-2' selected="selected">
+                                                Subsistence
+                                            </option>
+                                            <option value='Other' reRender='mobileType' dsid='mobileType-3'>
+                                                Other
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid2_row_2">
+                            <!-- mobilegridcell_92 -->
+                            <td id="j_56" name="mobilegridcell_92" class="mobilegridcell21" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_90 -->
+                                    <div name="mobilelabel1_90" id="j_57" dsid="mobilelabel1_90" data-role="tiggr_label"
+                                    class='labelClass mobilelabel11 '>
+                                        Reason
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_93 -->
+                            <td id="j_58" name="mobilegridcell_93" class="mobilegridcell22" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileReason -->
+                                    <div data-role="fieldcontain" class="mobiletextinput7 ">
+                                        <input type="text" name="mobileReason" dsid="mobileReason" id="j_59" value="" tabIndex="5"
+                                        data-theme="b" data-mini='true' class=' mobiletextinput7 ' />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid2_row_3">
+                            <!-- mobilegridcell_94 -->
+                            <td id="j_60" name="mobilegridcell_94" class="mobilegridcell23" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_91 -->
+                                    <div name="mobilelabel1_91" id="j_61" dsid="mobilelabel1_91" data-role="tiggr_label"
+                                    class='labelClass mobilelabel12 '>
+                                        Amount
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_95 -->
+                            <td id="j_62" name="mobilegridcell_95" class="mobilegridcell24" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileAmount -->
+                                    <div data-role="fieldcontain" class="mobiletextinput8 ">
+                                        <input type="text" name="mobileAmount" dsid="mobileAmount" id="j_63" type="number"
+                                        value=" " tabIndex="6" data-theme="b" data-mini='true' class='mobileAmount mobiletextinput8 '
+                                        />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="mobilegrid2_row_4">
+                            <!-- mobilegridcell_98 -->
+                            <td id="j_64" name="mobilegridcell_98" class="mobilegridcell25" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_104 -->
+                                    <div name="mobilelabel1_104" id="j_65" dsid="mobilelabel1_104" data-role="tiggr_label"
+                                    class='labelClass mobilelabel13 '>
+                                        Notes
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_99 -->
+                            <td id="j_66" name="mobilegridcell_99" class="mobilegridcell26" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobileNotes -->
+                                    <div data-role="fieldcontain" class="mobiletextarea2 ">
+                                        <textarea name="mobileNotes" id="j_67" data-mini='true' tabIndex="7" dsid="mobileNotes"
+                                        data-theme="b" class='textarea mobiletextarea2 '> 
+</textarea>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilebutton1_48 -->
+                <a data-role="button" name="mobilebutton1_48" dsid="mobilebutton1_48" class=' buttonOK mobilebutton3'
+                id='j_44' data-corners='true' data-inline='true' data-mini='false' data-theme="b"
+                tabIndex="1">
+                OK
+                </a>
+                <!-- mobilebutton1_49 -->
+                <a data-role="button" name="mobilebutton1_49" dsid="mobilebutton1_49" class=' buttonReject mobilebutton4'
+                id='j_45' data-corners='true' data-inline='true' data-mini='false' data-theme="b"
+                tabIndex="2">
+                Reject
+                </a>
+                <!-- mobileImage -->
+                <img class="mobileImage_eBis mobileimage1" src="files/views/assets/image/no-image.jpg"
+                id="j_43" dsid="mobileImage" name="mobileImage" />
+            </div>
+        </div>
+        <div data-role="page" style="min-height:480px;" dsid="grid_test" id="j_96" class="type-interior"
+        data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <div data-role="header" data-position="inline" data-theme="b" name="mobileheader1"
+            id="j_2" class='mobileHeader mobileheader4 '>
+                <h1 dsid="mobileheader1">
+                    eBIS-Mobile
+                </h1>
+                <!-- mobilenavbar2_40 -->
+                <div data-role="navbar" id="j_97" name="mobilenavbar2_40" dsid="mobilenavbar2_40"
+                class=" mobilenavbar1" data-theme="b" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem4_42 -->
+                        <li>
+                            <a data-theme='b' data-icon='back' id="j_98" dsid="mobilenavbaritem4_42" name="mobilenavbaritem4_42">
+                            Back
+                            </a>
+                        </li>
+                        <!-- mobilenavbaritem4_43 -->
+                        <li>
+                            <a data-theme='b' data-icon='star' id="j_99" dsid="mobilenavbaritem4_43" name="mobilenavbaritem4_43">
+                            item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- mobilecontainer1 -->
+            <div data-role="content" id="j_3" name="mobilecontainer1" class="mobileContent mobilecontainer4"
+            dsid="mobilecontainer1" data-theme=''>
+                <!-- myGrid_1 -->
+                <div class="mobilegrid5_wrapper">
+                    <table id="j_100" class="mobilegrid mobilegrid5" dsid="myGrid_1" name="myGrid_1"
+                    cellpadding=0 cellspacing=0>
+                        <col style="width:55px;" />
+                        <col style="width:54px;" />
+                        <col style="width:90px;" />
+                        <col style="width:45px;" />
+                        <col style="width:5px;" />
+                        <col style="width:auto;" />
+                        <tr class="mobilegrid5_row_0">
+                            <!-- mobilegridcell_45 -->
+                            <td id="j_101" name="mobilegridcell_45" class="mobilegridcell34" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_52 -->
+                                    <div name="mobilelabel1_52" id="j_102" dsid="mobilelabel1_52" data-role="tiggr_label"
+                                    class='labelClass mobilelabel14 '>
+                                        Date
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_53 -->
+                            <td id="j_103" name="mobilegridcell_53" class="mobilegridcell35" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_55 -->
+                                    <div name="mobilelabel1_55" id="j_104" dsid="mobilelabel1_55" data-role="tiggr_label"
+                                    class='labelClass mobilelabel15 '>
+                                        Type
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_54 -->
+                            <td id="j_105" name="mobilegridcell_54" class="mobilegridcell36" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_56 -->
+                                    <div name="mobilelabel1_56" id="j_106" dsid="mobilelabel1_56" data-role="tiggr_label"
+                                    class='labelClass mobilelabel16 '>
+                                        Reason
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_57 -->
+                            <td id="j_107" name="mobilegridcell_57" class="mobilegridcell37" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel1_59 -->
+                                    <div name="mobilelabel1_59" id="j_108" dsid="mobilelabel1_59" data-role="tiggr_label"
+                                    class='labelClass mobilelabel17 '>
+                                        Amount
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_58 -->
+                            <td id="j_109" name="mobilegridcell_58" class="mobilegridcell38" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_61 -->
+                            <td id="j_110" name="mobilegridcell_61" class="mobilegridcell39" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- myList -->
+                <ul data-role="listview" id="j_111" class=' mobilelist1 ' name="myList" dsid="myList"
+                data-inset='true' data-filter='true' data-filter-theme='b' data-theme="b" data-divider-theme='b'
+                data-count-theme='b' style="">
+                    <!-- mobilelistitem1_64 -->
+                    <li id="j_112" name="mobilelistitem1_64" dsid="mobilelistitem1_64" class=' mobilelistitem1 '>
+                        <div>
+                            <!-- mobilelabel1_71 -->
+                            <div name="mobilelabel1_71" id="j_114" dsid="mobilelabel1_71" data-role="tiggr_label"
+                            class='labelClass mobilelabel18 '>
+                                Mileage
+                            </div>
+                            <!-- list -->
+                            <div class="mobilegrid6_wrapper">
+                                <table id="j_115" class="list mobilegrid6" dsid="list" name="list" cellpadding=0
+                                cellspacing=0>
+                                    <col style="width:auto;" />
+                                    <col style="width:auto;" />
+                                    <col style="width:auto;" />
+                                    <tr class="mobilegrid6_row_0">
+                                        <!-- mobilegridcell_74 -->
+                                        <td id="j_116" name="mobilegridcell_74" class="mobilegridcell40" colspan=1 rowspan=1>
+                                            <div class="cell-wrapper">
+                                            </div>
+                                        </td>
+                                        <!-- mobilegridcell_84 -->
+                                        <td id="j_117" name="mobilegridcell_84" class="mobilegridcell41" colspan=1 rowspan=1>
+                                            <div class="cell-wrapper">
+                                            </div>
+                                        </td>
+                                        <!-- mobilegridcell_86 -->
+                                        <td id="j_118" name="mobilegridcell_86" class="mobilegridcell42" colspan=1 rowspan=1>
+                                            <div class="cell-wrapper">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span class="ui-icon ui-icon-arrow-r ui-icon-shadow extra">
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- mobilefooter1 -->
+            <div data-role="footer" data-position="fixed" class="mobileFooter mobilefooter4"
+            name="mobilefooter1" dsid="mobilefooter1" id="j_39" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,104 @@
+.option
+{
+  position: fixed; 
+  z-index: 2;
+  top:32px; 
+  right:45px;  
+  display: inline-block;
+}
+
+.buttonAdd
+{
+ background-image:url(UIButtonBarAction.jpg);
+ min-width: 1.8em;
+ height: 1.5em;
+}
+.btnSettings 
+{
+    position:fixed;
+ 
+ 
+          top:94.5%; 
+  right:1%;      
+}
+.buttonCamera
+{
+  position:fixed;
+  top:90%; 
+  right:45% ;   
+  min-width: 2.5em;
+  height: 2.2em;
+   
+}
+
+.textAreaNone
+{
+  
+   background:transparent;
+ font-size: 16px; margin: 0; text-align: center; color: #000000 ; font-color: #000000 ;  
+    border: none;
+ outline: none;
+    border: false;
+ font-family: Tahoma, sans-serif;
+}
+.buttonCancel
+{
+ color: white;
+ font-weight: bold;
+ text-shadow: 0 -1px 1px #711414;
+ background-image: -moz-linear-gradient(top, #DADADA, #343438);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DADADA), color-stop(1, #343438));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#DADADA', EndColorStr='#343438')"; 
+}
+ 
+
+.buttonCancel:hover
+{
+ color: blue;
+  
+}
+.toast {display: none; position: fixed; z-index: 99999; width: 100%; text-align: center; bottom: 3em;}
+.toast .message {display: inline-block; color: #fff ; padding: 5px; border-radius: 5px; box-shadow: 2px 2px 2px #666 ; -webkit-box-shadow: 2px 2px 2px #666 ; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; background: #282324 ; background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, #554434 ), color-stop(1, #282324 ));}
+
+.buttonOK
+{
+  
+ color: white;
+ font-weight: bold;
+ text-shadow: 0 -1px 1px #711414;
+ background-image: -moz-linear-gradient(top, #5ec45e, #399e39);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5ec45e), color-stop(1, #399e39));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#5ec45e', EndColorStr='#399e39')"; 
+}
+.buttonReject
+{
+  
+ color: white;
+ font-weight: bold;
+ text-shadow: 0 -1px 1px #711414;
+ background-image: -moz-linear-gradient(top, #c45e5e, #9e3939);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c45e5e), color-stop(1, #9e3939));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#c45e5e', EndColorStr='#9e3939')"; 
+}
+
+.mobilegridTest
+{
+       position:absolute;
+       TOP:20%;
+       LEFT:1px;
+  
+}
+.buttonQuestion
+{
+ color: white;
+ font-weight: bold;
+ text-shadow: 0 -1px 1px #711414;
+ background-image: -moz-linear-gradient(top, #69D6FF, #1C487D);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #69D6FF), color-stop(1, #1C487D));
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#69D6FF', EndColorStr='#1C487D')";  
+}
+.buttonQuestion:hover
+{
+     color: black;
+  
+}

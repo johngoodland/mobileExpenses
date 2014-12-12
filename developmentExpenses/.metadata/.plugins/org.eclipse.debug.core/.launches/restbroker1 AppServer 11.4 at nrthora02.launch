@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.openedge.pdt.server.appserver.launchconfig">
+<listAttribute key="abl.databases.ABL_DATABASES">
+<listEntry value="openacc"/>
+<listEntry value="openstrt"/>
+<listEntry value="ebisQA"/>
+</listAttribute>
+<booleanAttribute key="abl.databases.USE_PROJECT" value="false"/>
+<stringAttribute key="abl.debug.PROPATH" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;propath version=&quot;11.4&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;schema/propath.xsd&quot;&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;\\nrthqa04.coa.local\application\06\eliv5080&quot; platform=&quot;Windows&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\development\eliv508011.4\html\ebisForms&quot; platform=&quot;Windows&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\developmentExpenses\ebis\AppServer&quot; platform=&quot;Windows&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\developmentExpenses\ebis&quot; platform=&quot;Windows&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\developmentExpenses\.sharedavm&quot; platform=&quot;Windows&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\development\eliv508011.4\app\mobex&quot; platform=&quot;Windows&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\development\eliv508011.4\app&quot; platform=&quot;Windows&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\development\eliv508011.4&quot; platform=&quot;Windows&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;@{WORK}&quot; platform=&quot;All&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\dlcv114\tty&quot; platform=&quot;All&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\OpenEdge\WRKv114&quot; platform=&quot;All&quot;/&gt;&#13;&#10;&lt;/propath&gt;&#13;&#10;"/>
+<booleanAttribute key="abl.debug.PROPATH_USE_DEFAULT" value="false"/>
+<stringAttribute key="abl.startup.WORKING_DIRECTORY" value="\\nrthqa04.coa.local\application\06\eliv5080\mb"/>
+<booleanAttribute key="broker.DEBUGGER_SSL_ENABLE" value="false"/>
+<intAttribute key="broker.DEBUG_PORT" value="3099"/>
+<booleanAttribute key="broker.DISABLE_SSL_SESSION_CACHING" value="false"/>
+<booleanAttribute key="broker.SSL_ENABLE" value="false"/>
+<intAttribute key="broker.SSL_SESSION_CACHE_TIMEOUT" value="180"/>
+<stringAttribute key="server-id" value="OpenEdge AppServer restbroker1 - nrthora02"/>
+</launchConfiguration>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="Claims" path="/Claims" produces="application/json">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/Claims.pidl::com.progress.openedge.pdt.bpmbindings" name="AppServer.Claims..ReadClaims" path="" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource name="Claims_FetchLockStatus" path="/Claims/FetchLockStatus">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/Claims.pidl::com.progress.openedge.pdt.bpmbindings" name="AppServer.Claims..FetchLockStatus" path="" produces="application/json" verb="PUT">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource name="Claims_TrackClaim" path="/Claims/TrackClaim">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/Claims.pidl::com.progress.openedge.pdt.bpmbindings" name="AppServer.Claims..TrackClaim" path="" produces="application/json" verb="PUT"/>
+  </prgs:resource>
+  <prgs:resource name="Claims_CheckUpdates" path="/Claims/CheckUpdates">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/Claims.pidl::com.progress.openedge.pdt.bpmbindings" name="AppServer.Claims..CheckUpdates" path="" produces="application/json" verb="PUT">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource name="SecurityTokenService_ValidateSession" path="/SecurityTokenService/ValidateSession">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/SecurityTokenService.pidl::com.progress.openedge.pdt.bpmbindings" name="AppServer.SecurityTokenService..ValidateSession" path="" produces="application/json" verb="PUT"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="eBISdata" path="/ebisdata" produces="application/json">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/ebisdata.pidl::com.progress.openedge.pdt.bpmbindings" name="ebisdata..UpdateeBISdata" path="" produces="application/json" verb="PUT"/>
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/ebisdata.pidl::com.progress.openedge.pdt.bpmbindings" name="ebisdata..ReadeBISdata" path="" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/ebisdata.pidl::com.progress.openedge.pdt.bpmbindings" name="ebisdata..DeleteeBISdata" path="" produces="application/json" verb="DELETE"/>
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/ebisdata.pidl::com.progress.openedge.pdt.bpmbindings" name="ebisdata..CreateeBISdata" path="" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource name="eBISdata_CaptureExpense" path="/ebisdata/CaptureExpense">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/ebisdata.pidl::com.progress.openedge.pdt.bpmbindings" name="ebisdata..CaptureExpense" path="" produces="application/json" verb="PUT">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="getFormData" path="/getFormData" produces="application/json">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/getFormData.pidl::com.progress.openedge.pdt.bpmbindings" name="getFormData..ReadgetFormData" path="" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="getTypes" path="/getTypes" produces="application/json">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/getTypes.pidl::com.progress.openedge.pdt.bpmbindings" name="AppServer.getTypes..ReadgetTypes" path="" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="manage" path="/manage" produces="application/json">
+    <prgs:operation consumes="application/json" idls="ebis/.services/AppServer/manage.pidl::com.progress.openedge.pdt.bpmbindings" name="manage..ping" path="/ping" produces="application/json" verb="GET"/>
+  </prgs:resource>
+</prgs:model>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/developmentExpenses/ebis/AppServer" type="PathEntry" ModificationStamp="1415113393107" FullName="AppServer" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+	</procedures>
+	<classes>
+		<pacakage name="">
+			<class name="BusinessEntity" SourceFilePath="C:/developmentExpenses/ebis/AppServer/BusinessEntity.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/BusinessEntity.r" Abstract="true" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages=""></class>
+			<class name="ebisExpenses" SourceFilePath="C:/developmentExpenses/ebis/AppServer/ebisExpenses.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/ebisExpenses.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages=""></class>
+			<class name="ebisdata" SourceFilePath="C:/developmentExpenses/ebis/AppServer/ebisdata.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/ebisdata.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+			<class name="getFormData" SourceFilePath="C:/developmentExpenses/ebis/AppServer/getFormData.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/getFormData.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+			<class name="manage" SourceFilePath="C:/developmentExpenses/ebis/AppServer/manage.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/manage.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages=""></class>
+			<class name="test" SourceFilePath="C:/developmentExpenses/ebis/AppServer/test.cls" RfilePath="C:/developmentExpenses/ebis/AppServer/test.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages=""></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

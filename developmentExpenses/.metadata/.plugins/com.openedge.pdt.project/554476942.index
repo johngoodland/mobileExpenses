@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/dlcv114/gui/adeshar.pl" type="ProcedureLibrary" ModificationStamp="1415113393140" FullName="adeshar.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="adeshar">
+			<procedure name="mpclose" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="42" RelativePath="adeshar"></procedure>
+			<procedure name="mpdelay" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2985" RelativePath="adeshar"></procedure>
+			<procedure name="mpdisp" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="4430" RelativePath="adeshar"></procedure>
+			<procedure name="mpinit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="7579" RelativePath="adeshar"></procedure>
+			<procedure name="mpstotal" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="11666" RelativePath="adeshar"></procedure>
+			<procedure name="mpwrap" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="14140" RelativePath="adeshar"></procedure>
+			<procedure name="_ablic" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="15120" RelativePath="adeshar"></procedure>
+			<procedure name="_bstfnam" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="20695" RelativePath="adeshar"></procedure>
+			<procedure name="_bstname" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="112673" RelativePath="adeshar"></procedure>
+			<procedure name="_calcfld" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="219958" RelativePath="adeshar"></procedure>
+			<procedure name="_chksave" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="309640" RelativePath="adeshar"></procedure>
+			<procedure name="_cntrapi" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="312389" RelativePath="adeshar"></procedure>
+			<procedure name="_cntrsdm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="373544" RelativePath="adeshar"></procedure>
+			<procedure name="_coddflt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="394300" RelativePath="adeshar"></procedure>
+			<procedure name="_codinit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="630588" RelativePath="adeshar"></procedure>
+			<procedure name="_contbin" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="637560" RelativePath="adeshar"></procedure>
+			<procedure name="_contbnm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="750280" RelativePath="adeshar"></procedure>
+			<procedure name="_conthdl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="859912" RelativePath="adeshar"></procedure>
+			<procedure name="_dialbdr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="863263" RelativePath="adeshar"></procedure>
+			<procedure name="_dirname" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="865823" RelativePath="adeshar"></procedure>
+			<procedure name="_filname" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="899321" RelativePath="adeshar"></procedure>
+			<procedure name="_fldtype" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="939809" RelativePath="adeshar"></procedure>
+			<procedure name="_gen4gl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="946124" RelativePath="adeshar"></procedure>
+			<procedure name="_gendefs" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="1496924" RelativePath="adeshar"></procedure>
+			<procedure name="_getwdir" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2057058" RelativePath="adeshar"></procedure>
+			<procedure name="_machk" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2061965" RelativePath="adeshar"></procedure>
+			<procedure name="_madda" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2083292" RelativePath="adeshar"></procedure>
+			<procedure name="_maddf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2100452" RelativePath="adeshar"></procedure>
+			<procedure name="_maddi" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2120953" RelativePath="adeshar"></procedure>
+			<procedure name="_maddm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2145766" RelativePath="adeshar"></procedure>
+			<procedure name="_maddt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2162995" RelativePath="adeshar"></procedure>
+			<procedure name="_mcheckm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2183143" RelativePath="adeshar"></procedure>
+			<procedure name="_mchgi" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2203168" RelativePath="adeshar"></procedure>
+			<procedure name="_mclose" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2223455" RelativePath="adeshar"></procedure>
+			<procedure name="_mdelf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2238296" RelativePath="adeshar"></procedure>
+			<procedure name="_mdeli" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2255907" RelativePath="adeshar"></procedure>
+			<procedure name="_mdelsm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2276382" RelativePath="adeshar"></procedure>
+			<procedure name="_mdelt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2293516" RelativePath="adeshar"></procedure>
+			<procedure name="_mfire" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2309647" RelativePath="adeshar"></procedure>
+			<procedure name="_mfiref" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2331126" RelativePath="adeshar"></procedure>
+			<procedure name="_mgetf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2353515" RelativePath="adeshar"></procedure>
+			<procedure name="_mgetfl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2370927" RelativePath="adeshar"></procedure>
+			<procedure name="_mgetfs" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2387413" RelativePath="adeshar"></procedure>
+			<procedure name="_mgeti" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2402767" RelativePath="adeshar"></procedure>
+			<procedure name="_mgeti2" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2420515" RelativePath="adeshar"></procedure>
+			<procedure name="_mgetil" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2438487" RelativePath="adeshar"></procedure>
+			<procedure name="_mgetm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2456270" RelativePath="adeshar"></procedure>
+			<procedure name="_mgetml" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2471847" RelativePath="adeshar"></procedure>
+			<procedure name="_mgetsmc" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2487338" RelativePath="adeshar"></procedure>
+			<procedure name="_mgett2" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2503756" RelativePath="adeshar"></procedure>
+			<procedure name="_mgett3" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2521809" RelativePath="adeshar"></procedure>
+			<procedure name="_mgettl" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2539910" RelativePath="adeshar"></procedure>
+			<procedure name="_mgetu" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2555753" RelativePath="adeshar"></procedure>
+			<procedure name="_minit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2571231" RelativePath="adeshar"></procedure>
+			<procedure name="_mlmgr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2591787" RelativePath="adeshar"></procedure>
+			<procedure name="_mread" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2781679" RelativePath="adeshar"></procedure>
+			<procedure name="_mreset" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2807609" RelativePath="adeshar"></procedure>
+			<procedure name="_mresett" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2827945" RelativePath="adeshar"></procedure>
+			<procedure name="_mrulist" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2843334" RelativePath="adeshar"></procedure>
+			<procedure name="_msecure" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2875287" RelativePath="adeshar"></procedure>
+			<procedure name="_msepnm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2894920" RelativePath="adeshar"></procedure>
+			<procedure name="_msett1" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2910086" RelativePath="adeshar"></procedure>
+			<procedure name="_msett2" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2925723" RelativePath="adeshar"></procedure>
+			<procedure name="_msetu" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2942427" RelativePath="adeshar"></procedure>
+			<procedure name="_mupdatm" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2957977" RelativePath="adeshar"></procedure>
+			<procedure name="_mupdatt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="2991176" RelativePath="adeshar"></procedure>
+			<procedure name="_mupdf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3021256" RelativePath="adeshar"></procedure>
+			<procedure name="_mwrite" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3045104" RelativePath="adeshar"></procedure>
+			<procedure name="_ocxdflt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3092770" RelativePath="adeshar"></procedure>
+			<procedure name="_puterr" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3207972" RelativePath="adeshar"></procedure>
+			<procedure name="_qenable" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3210736" RelativePath="adeshar"></procedure>
+			<procedure name="_qset" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3324311" RelativePath="adeshar"></procedure>
+			<procedure name="_query" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3438886" RelativePath="adeshar"></procedure>
+			<procedure name="_qwhere" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3846596" RelativePath="adeshar"></procedure>
+			<procedure name="_seldir" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3949667" RelativePath="adeshar"></procedure>
+			<procedure name="_taskbar" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3951003" RelativePath="adeshar"></procedure>
+			<procedure name="_testbin" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeshar.pl" isInsidePL="true" Offset="3962293" RelativePath="adeshar"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

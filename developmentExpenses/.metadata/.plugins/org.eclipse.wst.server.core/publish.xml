@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<publish-info>
+  <server id="OpenEdge AppServer restbroker1 - nrthora02" path="publish1.dat"/>
+  <server id="OpenEdge AppServer asbroker1 - nrthora02" path="publish2.dat"/>
+  <server id="asbroker1 AppServer 11.4 at nrthora02 (2)" path="publish3.dat"/>
+  <server id="OE Web Server restmgr1 - nrthora02" path="publish0.dat"/>
+</publish-info>

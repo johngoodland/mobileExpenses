@@ -1,0 +1,69 @@
+/*===========================================================
+* Disable default Spinner
+* Add Nothing else to this CSS Page!!
+* ========================================================*/
+#ajaxBusy {display: none !important;}// Gets rid of the spinner
+
+
+/*===========================================================
+* SpinnerAdd Loader
+* SpinnerAdd
+* ========================================================*/
+.SpinnerAdd div{
+height:30px;
+width:12px;
+display:inline-block; 
+background-color: #56bbdb;
+border:1px solid #217c99;
+-webkit-animation:SpinnerAdd_loader 1.3s linear infinite;
+-moz-animation:SpinnerAdd_loader 1.3s linear infinite;
+animation:SpinnerAdd_loader 1.3s linear infinite;
+-webkit-transform:scale(0.91);
+-moz-transform:scale(0.91);
+transform:scale(0.91);
+} 
+.SpinnerAdd div:nth-child(1){
+-webkit-animation-delay:0.39s;
+-moz-animation-delay:0.39s;
+animation-delay:0.39s;
+}
+.SpinnerAdd div:nth-child(2){
+-webkit-animation-delay:0.52s;
+-moz-animation-delay:0.52s;
+animation-delay:0.52s;
+}
+.SpinnerAdd div:nth-child(3){
+-webkit-animation-delay:0.65s;
+-moz-animation-delay:0.65s;
+animation-delay:0.65s;
+} 
+@-webkit-keyframes SpinnerAdd_loader{
+0%{
+-webkit-transform:scale(1.2);
+opacity:1
+}
+100%{
+-webkit-transform:scale(0.7);
+opacity:0.1
+}
+}
+@-moz-keyframes SpinnerAdd_loader{
+0%{
+-moz-transform:scale(1.2);
+opacity:1
+}
+100%{
+-moz-transform:scale(0.7);
+opacity:0.1
+}
+}
+@keyframes SpinnerAdd_loader{
+0%{
+transform:scale(1.2);
+opacity:1
+}
+100%{
+transform:scale(0.7);
+opacity:0.1
+}
+}

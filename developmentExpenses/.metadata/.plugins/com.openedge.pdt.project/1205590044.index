@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/dlcv114/gui/adeedit.pl" type="ProcedureLibrary" ModificationStamp="1415113393124" FullName="adeedit.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="adeedit">
+			<procedure name="_dlggetf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeedit.pl" isInsidePL="true" Offset="42" RelativePath="adeedit"></procedure>
+			<procedure name="_dlgsbuf" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeedit.pl" isInsidePL="true" Offset="30667" RelativePath="adeedit"></procedure>
+			<procedure name="_edithlp" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeedit.pl" isInsidePL="true" Offset="48435" RelativePath="adeedit"></procedure>
+			<procedure name="_proedit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeedit.pl" isInsidePL="true" Offset="51235" RelativePath="adeedit"></procedure>
+			<procedure name="_winrsz" SourceFilePath="" RfilePath="C:/dlcv114/gui/adeedit.pl" isInsidePL="true" Offset="634400" RelativePath="adeedit"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

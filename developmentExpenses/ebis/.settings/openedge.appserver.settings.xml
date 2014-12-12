@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-content version="11.2">
+<module id="fe839d5a-df28-427b-bf1c-f93c8d02028f" name="ebis">
+<resource path="AppServer" publish="true"/>
+</module>
+</module-content>

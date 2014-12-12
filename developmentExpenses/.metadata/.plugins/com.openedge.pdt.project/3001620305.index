@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/dlcv114/gui/adexml.pl" type="ProcedureLibrary" ModificationStamp="1415113393175" FullName="adexml.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="adexml">
+			<procedure name="_sorcedt" SourceFilePath="" RfilePath="C:/dlcv114/gui/adexml.pl" isInsidePL="true" Offset="42" RelativePath="adexml"></procedure>
+			<procedure name="_winexit" SourceFilePath="" RfilePath="C:/dlcv114/gui/adexml.pl" isInsidePL="true" Offset="79792" RelativePath="adexml"></procedure>
+			<procedure name="_xchoice" SourceFilePath="" RfilePath="C:/dlcv114/gui/adexml.pl" isInsidePL="true" Offset="96123" RelativePath="adexml"></procedure>
+			<procedure name="_xmlfile" SourceFilePath="" RfilePath="C:/dlcv114/gui/adexml.pl" isInsidePL="true" Offset="109082" RelativePath="adexml"></procedure>
+			<procedure name="_xmlmap" SourceFilePath="" RfilePath="C:/dlcv114/gui/adexml.pl" isInsidePL="true" Offset="238389" RelativePath="adexml"></procedure>
+			<procedure name="_xmlpref" SourceFilePath="" RfilePath="C:/dlcv114/gui/adexml.pl" isInsidePL="true" Offset="392150" RelativePath="adexml"></procedure>
+			<procedure name="_xmlprops" SourceFilePath="" RfilePath="C:/dlcv114/gui/adexml.pl" isInsidePL="true" Offset="402143" RelativePath="adexml"></procedure>
+			<procedure name="_xmlview" SourceFilePath="" RfilePath="C:/dlcv114/gui/adexml.pl" isInsidePL="true" Offset="483853" RelativePath="adexml"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

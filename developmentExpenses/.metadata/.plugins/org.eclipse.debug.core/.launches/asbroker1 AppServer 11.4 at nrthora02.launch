@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.openedge.pdt.server.appserver.launchconfig">
+<stringAttribute key="abl.debug.PROPATH" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;propath version=&quot;11.4&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;schema/propath.xsd&quot;&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;@{WORK}&quot; platform=&quot;All&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\dlcv114\tty&quot; platform=&quot;All&quot;/&gt;&#13;&#10;&lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;C:\OpenEdge\WRKv114&quot; platform=&quot;All&quot;/&gt;&#13;&#10;&lt;/propath&gt;&#13;&#10;"/>
+<booleanAttribute key="abl.debug.PROPATH_USE_DEFAULT" value="false"/>
+<stringAttribute key="abl.startup.WORKING_DIRECTORY" value="C:\OpenEdge\WRKv114"/>
+<booleanAttribute key="broker.DEBUGGER_SSL_ENABLE" value="false"/>
+<intAttribute key="broker.DEBUG_PORT" value="3099"/>
+<booleanAttribute key="broker.DISABLE_SSL_SESSION_CACHING" value="false"/>
+<booleanAttribute key="broker.SSL_ENABLE" value="false"/>
+<intAttribute key="broker.SSL_SESSION_CACHE_TIMEOUT" value="180"/>
+<stringAttribute key="server-id" value="OpenEdge AppServer asbroker1 - nrthora02"/>
+</launchConfiguration>

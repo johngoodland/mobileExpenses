@@ -1,0 +1,405 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/dlcv114/gui/prodict.pl" type="ProcedureLibrary" ModificationStamp="1415113393125" FullName="prodict.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="prodict/odb">
+			<procedure name="odb_fix" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10786719" RelativePath="prodict/odb"></procedure>
+			<procedure name="odb_fprp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10791635" RelativePath="prodict/odb"></procedure>
+			<procedure name="odb_qe" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10795524" RelativePath="prodict/odb"></procedure>
+			<procedure name="protood1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10798514" RelativePath="prodict/odb"></procedure>
+			<procedure name="protoodb" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10852557" RelativePath="prodict/odb"></procedure>
+			<procedure name="_beauty" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10922228" RelativePath="prodict/odb"></procedure>
+			<procedure name="_bpullodb" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10954395" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odbxnum" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11010073" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_crp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11012948" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_fix" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11120725" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_fld" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11223334" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_get" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11301861" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md0" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11509458" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11536953" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md2" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11608724" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md3" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11664897" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md5" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11723933" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md9" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11726873" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_pul" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="11758747" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_sdb" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12053356" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_sys" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12139872" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_typ" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12151288" RelativePath="prodict/odb"></procedure>
+			<procedure name="_sndinfo" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12181434" RelativePath="prodict/odb"></procedure>
+			<procedure name="_snd_sql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12223472" RelativePath="prodict/odb"></procedure>
+		</relative>
+		<relative path="prodict/mss/key">
+			<procedure name="constraint" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10333085" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="del_con" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10521707" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="modcons" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10529508" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="_msc_act" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10695952" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="_msc_del" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10724945" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="_msc_viw" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10744774" RelativePath="prodict/mss/key"></procedure>
+		</relative>
+		<relative path="prodict/pro">
+			<procedure name="_alt-buf-driver" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15096613" RelativePath="prodict/pro"></procedure>
+			<procedure name="_alt-buf-edit" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15118542" RelativePath="prodict/pro"></procedure>
+			<procedure name="_alt-buf-sel" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15203735" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_area_list" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15553079" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_domain_list" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15562068" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_fld" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15566618" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_int64" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15725298" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_mt_seq" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15746910" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_mt_tbl" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15781520" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_sql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15804261" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_sys" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15837363" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_typ" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15841596" RelativePath="prodict/pro"></procedure>
+		</relative>
+		<relative path="prodict/dump">
+			<procedure name="testdump" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1007210" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmp5cvt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1008086" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpasci" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1068810" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpaudp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1103037" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpbulk" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1143679" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpdata" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1178259" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpdefs" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1267742" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpdiff" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1419934" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpincr" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1452723" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpisub" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1813911" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpsddl" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1874849" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpsec" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="1946633" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpseqs" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2067061" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpsylk" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2094391" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpuser" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2122177" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmputil" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2139187" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpv5df" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2201690" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpview" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2231798" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmp_raw" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2251128" RelativePath="prodict/dump"></procedure>
+			<procedure name="_exptbln" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2255036" RelativePath="prodict/dump"></procedure>
+			<procedure name="_exptblnap" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2264341" RelativePath="prodict/dump"></procedure>
+			<procedure name="_impbln" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2272228" RelativePath="prodict/dump"></procedure>
+			<procedure name="_impblnap" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2286877" RelativePath="prodict/dump"></procedure>
+			<procedure name="_load_df" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2293310" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodasci" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2350563" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodaudp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2375771" RelativePath="prodict/dump"></procedure>
+			<procedure name="_loddata" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2420305" RelativePath="prodict/dump"></procedure>
+			<procedure name="_loddbff" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2546135" RelativePath="prodict/dump"></procedure>
+			<procedure name="_loddiff" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2572055" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodfini" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2616380" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodname" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2679698" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodsdbf" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2698861" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodsddl" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="2747892" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodsec" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3216498" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodseqs" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3323518" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodsylk" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3351242" RelativePath="prodict/dump"></procedure>
+			<procedure name="_loduser" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3381880" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodv5df" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3412240" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodview" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3479346" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_con" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3517025" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_dbs" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3599710" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_fil" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3705848" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_fld" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3827529" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_idx" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="3966763" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_seq" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4066765" RelativePath="prodict/dump"></procedure>
+		</relative>
+		<relative path="prodict/sec">
+			<procedure name="_cascrvk" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15908062" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-dom" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15966435" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-gen-key" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16180841" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-obj-sel" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16211542" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-perm" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16296316" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-pol-driver" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16499159" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-pol-edit" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16523080" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-pol-hist" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16626824" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-sys" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16789769" RelativePath="prodict/sec"></procedure>
+		</relative>
+		<relative path="prodict/mss">
+			<procedure name="deltaconnect" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7118975" RelativePath="prodict/mss"></procedure>
+			<procedure name="deltasql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7153244" RelativePath="prodict/mss"></procedure>
+			<procedure name="genrowid" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7225740" RelativePath="prodict/mss"></procedure>
+			<procedure name="mss_fix" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7272898" RelativePath="prodict/mss"></procedure>
+			<procedure name="mss_qe" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7277814" RelativePath="prodict/mss"></procedure>
+			<procedure name="procbfrpul" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7280804" RelativePath="prodict/mss"></procedure>
+			<procedure name="protoms1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7290841" RelativePath="prodict/mss"></procedure>
+			<procedure name="protomss" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7392100" RelativePath="prodict/mss"></procedure>
+			<procedure name="protomss1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7470589" RelativePath="prodict/mss"></procedure>
+			<procedure name="schconnect" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7530337" RelativePath="prodict/mss"></procedure>
+			<procedure name="schmsstopro" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7617394" RelativePath="prodict/mss"></procedure>
+			<procedure name="schpullmss" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7653210" RelativePath="prodict/mss"></procedure>
+			<procedure name="_beauty" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7743080" RelativePath="prodict/mss"></procedure>
+			<procedure name="_clrank" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7781714" RelativePath="prodict/mss"></procedure>
+			<procedure name="_cnrank" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7834642" RelativePath="prodict/mss"></procedure>
+			<procedure name="_ctestr" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7916220" RelativePath="prodict/mss"></procedure>
+			<procedure name="_gendsql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="8024602" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mssschg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="8819588" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_crp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="8880243" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_crs" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9008290" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_fix" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9009166" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_get" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9139199" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_gid" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9322839" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_inc" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9361182" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md0" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9424910" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9457406" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md2" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9535638" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md5" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9597036" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md9" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9599976" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_nseqpul" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9636847" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_pul" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9637723" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_sdb" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="9973963" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_sys" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10061482" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_typ" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10072958" RelativePath="prodict/mss"></procedure>
+			<procedure name="_rankpdb" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10116686" RelativePath="prodict/mss"></procedure>
+			<procedure name="_sndinfo" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10225580" RelativePath="prodict/mss"></procedure>
+			<procedure name="_snd_sql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="10267570" RelativePath="prodict/mss"></procedure>
+		</relative>
+		<relative path="prodict/ora/key">
+			<procedure name="constraint" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14753575" RelativePath="prodict/ora/key"></procedure>
+			<procedure name="modcons" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14887257" RelativePath="prodict/ora/key"></procedure>
+			<procedure name="_orc_act" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15009024" RelativePath="prodict/ora/key"></procedure>
+			<procedure name="_orc_del" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15035136" RelativePath="prodict/ora/key"></procedure>
+			<procedure name="_orc_viw" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="15052317" RelativePath="prodict/ora/key"></procedure>
+		</relative>
+		<relative path="prodict/aud">
+			<procedure name="_aud-pol" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="936918" RelativePath="prodict/aud"></procedure>
+		</relative>
+		<relative path="prodict/ora">
+			<procedure name="protoor1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12288987" RelativePath="prodict/ora"></procedure>
+			<procedure name="protoora" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12338485" RelativePath="prodict/ora"></procedure>
+			<procedure name="_beauty" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12407571" RelativePath="prodict/ora"></procedure>
+			<procedure name="_bpullora" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12436266" RelativePath="prodict/ora"></procedure>
+			<procedure name="_gendsql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="12491295" RelativePath="prodict/ora"></procedure>
+			<procedure name="_get_orauser" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13180730" RelativePath="prodict/ora"></procedure>
+			<procedure name="_get_oraver" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13184283" RelativePath="prodict/ora"></procedure>
+			<procedure name="_oraload" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13188073" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_als" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13292369" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_cra" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13300709" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crc" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13320792" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13335792" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_cri" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13347096" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crk" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13353607" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crl" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13359536" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crm" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13374148" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crn" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13380173" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_cro" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13396873" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13405358" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crs" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13406543" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13414877" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_cru" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13432680" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_fix" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13437800" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_fld" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13548401" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_inc" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13589087" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lk0" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13635733" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkc" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13696179" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13726143" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkl" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13798098" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lks" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13864281" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkx" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13957974" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkz" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="13990499" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md0" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14028074" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14056633" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md2" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14129386" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md3" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14157872" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md5" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14192970" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md9" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14194969" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_nlsvld" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14227789" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_prc" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14249574" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_pul" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14362359" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_sys" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14576768" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_typ" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14594750" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_vts" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14626000" RelativePath="prodict/ora"></procedure>
+			<procedure name="_protoora" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14650669" RelativePath="prodict/ora"></procedure>
+			<procedure name="_snd_sql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="14690276" RelativePath="prodict/ora"></procedure>
+		</relative>
+		<relative path="prodict/misc">
+			<procedure name="osappend" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5835346" RelativePath="prodict/misc"></procedure>
+			<procedure name="osdbfutl" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5837455" RelativePath="prodict/misc"></procedure>
+			<procedure name="osprefix" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5843672" RelativePath="prodict/misc"></procedure>
+			<procedure name="osquoter" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5847407" RelativePath="prodict/misc"></procedure>
+			<procedure name="ostodir" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5854824" RelativePath="prodict/misc"></procedure>
+			<procedure name="_clproto" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5887673" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-chgid" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5890725" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-id-hst" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5923901" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-id-mnt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5976862" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-lkey" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6026801" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-optn" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6038656" RelativePath="prodict/misc"></procedure>
+			<procedure name="_del-db" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6074002" RelativePath="prodict/misc"></procedure>
+			<procedure name="_dirbtn" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6081695" RelativePath="prodict/misc"></procedure>
+			<procedure name="_eventhandler" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6084180" RelativePath="prodict/misc"></procedure>
+			<procedure name="_filebtn" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6086571" RelativePath="prodict/misc"></procedure>
+			<procedure name="_getconp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6089965" RelativePath="prodict/misc"></procedure>
+			<procedure name="_prt_rpt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6109663" RelativePath="prodict/misc"></procedure>
+			<procedure name="_resxlat" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6212958" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptaltbuf" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6227343" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptaqik" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6252443" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptaud" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6270180" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptencp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6320454" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptflds" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6346586" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptfqik" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6365440" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptiqik" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6384485" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptrels" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6402766" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptsqik" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6421095" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rpttqik" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6438992" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rpttrig" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6456889" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptuqik" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6474786" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptvqik" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6492683" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptwdat" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6510692" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptwdth" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6545797" RelativePath="prodict/misc"></procedure>
+			<procedure name="_tstsh" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6564006" RelativePath="prodict/misc"></procedure>
+			<procedure name="_valsch" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6566098" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkcgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6575056" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkfgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6601215" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkfnum" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6634983" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrktgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="6661324" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkvgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7054242" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkwgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="7086877" RelativePath="prodict/misc"></procedure>
+		</relative>
+		<relative path="prodict/gui">
+			<procedure name="_closqlw" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5005907" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guiauto" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5019530" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guifixd" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5081753" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guigge1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5114032" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guigget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5199551" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guipfed" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5276949" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guipick" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5314541" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guisecu" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5369485" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guisget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5444680" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guisqlw" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5498975" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guitget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5563808" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guiuchg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5654056" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guivget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5739460" RelativePath="prodict/gui"></procedure>
+			<procedure name="_savwidt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5781127" RelativePath="prodict/gui"></procedure>
+		</relative>
+		<relative path="prodict/gate">
+			<procedure name="beauty1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4147642" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gatxnum" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4150126" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_atg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4153181" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_cmp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4156436" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_con" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4438256" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_cp" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4465767" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_cp1" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4510030" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_cro" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4536213" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_drv" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4763176" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_fnm" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4792084" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_ini" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4836286" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_nam" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4890775" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_prt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4897177" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_row" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4919067" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_trg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4992846" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_xlt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="4997956" RelativePath="prodict/gate"></procedure>
+			<procedure name="_snd_sql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="5001027" RelativePath="prodict/gate"></procedure>
+		</relative>
+		<relative path="prodict/user">
+			<procedure name="_usershw" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16956065" RelativePath="prodict/user"></procedure>
+			<procedure name="_usradmn" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="16999892" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrauto" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17041489" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrblnk" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17108014" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrcgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17133897" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrcold" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17164813" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrdbox" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17197484" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrdump" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17199771" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrebox" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17579308" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrexpo" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17581193" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfchg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17677594" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfcpy" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17678470" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17748764" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfglo" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17784677" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfixd" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17844984" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfnum" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17858407" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrftrg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17887814" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrgget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17921541" RelativePath="prodict/user"></procedure>
+			<procedure name="_usriact" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="17998038" RelativePath="prodict/user"></procedure>
+			<procedure name="_usriadd" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18049322" RelativePath="prodict/user"></procedure>
+			<procedure name="_usribro" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18128886" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrichg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18167040" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrimpo" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18322784" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrincr" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18452076" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrinf2" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18530130" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrinf3" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18573722" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrinfo" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18580571" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrkchg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18598087" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrload" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18615624" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrlrec" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="18964921" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrpfed" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19006514" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrpick" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19082967" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrprdb" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19142317" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrpwd2" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19153670" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrquot" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19170745" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrschg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19284498" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrscon" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19347714" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrsdbf" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19382216" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrsdel" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19452761" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrsecu" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19491612" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrsget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19556942" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtchg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19617192" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtdel" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19618068" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19675384" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtget-tt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19779460" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19862642" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtrax" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19940472" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtrig" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19971683" RelativePath="prodict/user"></procedure>
+			<procedure name="_usruchg" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="19995079" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrupwd" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="20083722" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrvgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="20113482" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrvget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="20160144" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrwdth" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="20198886" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrwgen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="20247819" RelativePath="prodict/user"></procedure>
+			<procedure name="_usr_dif" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="20279380" RelativePath="prodict/user"></procedure>
+			<procedure name="_usr_gsl" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="20318394" RelativePath="prodict/user"></procedure>
+		</relative>
+		<relative path="prodict">
+			<procedure name="dmpseqvals" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="42" RelativePath="prodict"></procedure>
+			<procedure name="dump_d" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="32775" RelativePath="prodict"></procedure>
+			<procedure name="dump_df" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="106208" RelativePath="prodict"></procedure>
+			<procedure name="dump_fd" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="154034" RelativePath="prodict"></procedure>
+			<procedure name="dump_inc" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="171563" RelativePath="prodict"></procedure>
+			<procedure name="load_d" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="244646" RelativePath="prodict"></procedure>
+			<procedure name="load_df" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="312786" RelativePath="prodict"></procedure>
+			<procedure name="load_df_silent" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="316584" RelativePath="prodict"></procedure>
+			<procedure name="load_seq" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="321992" RelativePath="prodict"></procedure>
+			<procedure name="send_sql" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="361686" RelativePath="prodict"></procedure>
+			<procedure name="upd_sch" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="366956" RelativePath="prodict"></procedure>
+			<procedure name="_dctadmn" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="372096" RelativePath="prodict"></procedure>
+			<procedure name="_dctalia" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="380205" RelativePath="prodict"></procedure>
+			<procedure name="_dctcach" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="382127" RelativePath="prodict"></procedure>
+			<procedure name="_dctexec" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="410657" RelativePath="prodict"></procedure>
+			<procedure name="_dctexen" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="452457" RelativePath="prodict"></procedure>
+			<procedure name="_dctgues" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="482708" RelativePath="prodict"></procedure>
+			<procedure name="_dctlrec" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="522975" RelativePath="prodict"></procedure>
+			<procedure name="_dctname" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="547572" RelativePath="prodict"></procedure>
+			<procedure name="_dctquot" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="550410" RelativePath="prodict"></procedure>
+			<procedure name="_dctscnt" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="553288" RelativePath="prodict"></procedure>
+			<procedure name="_dctsget" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="557958" RelativePath="prodict"></procedure>
+			<procedure name="_dctsset" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="571551" RelativePath="prodict"></procedure>
+			<procedure name="_dctsylk" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="595072" RelativePath="prodict"></procedure>
+			<procedure name="_dctyear" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="602928" RelativePath="prodict"></procedure>
+			<procedure name="_dictc" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="604434" RelativePath="prodict"></procedure>
+			<procedure name="_dictdb" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" isInsidePL="true" Offset="933508" RelativePath="prodict"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+		<pacakage name="prodict.sec">
+			<class name="prodict.sec._sec-pol-util" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="16667638"></class>
+		</pacakage>
+		<pacakage name="prodict.pro">
+			<class name="prodict.pro._domain-model" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-model" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15268762"></class>
+			<class name="prodict.pro._domain-sel-browse" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.misc._browse" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15286946"></class>
+			<class name="prodict.pro._domain-sel-nonmt-browse" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.misc._browse" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15308433"></class>
+			<class name="prodict.pro._domain-sel-presenter" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-presenter" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15329831"></class>
+			<class name="prodict.pro._imodel" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="true" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15336883"></class>
+			<class name="prodict.pro._ipresenter" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="true" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15342383"></class>
+			<class name="prodict.pro._iview" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="true" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15350073"></class>
+			<class name="prodict.pro._obj-attrib-util" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15357195"></class>
+			<class name="prodict.pro._pro-model" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="prodict.pro._imodelæ" ImportedPackages="" isInsidePL="true" Offset="15471346"></class>
+			<class name="prodict.pro._pro-presenter" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="true" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="prodict.pro._ipresenteræ" ImportedPackages="" isInsidePL="true" Offset="15494311"></class>
+			<class name="prodict.pro._pro-sel-dialog-gui" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-sel-dialog" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15513824"></class>
+			<class name="prodict.pro._pro-sel-dialog-tty" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-sel-dialog" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15525171"></class>
+			<class name="prodict.pro._pro-sel-dialog" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="prodict.pro._iviewæprodict.misc._iwidgethandleræ" ImportedPackages="" isInsidePL="true" Offset="15533103"></class>
+			<class name="prodict.pro._tenant-model" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-model" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15853196"></class>
+			<class name="prodict.pro._tenant-sel-browse" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.misc._browse" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15875593"></class>
+			<class name="prodict.pro._tenant-sel-presenter" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-presenter" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15901477"></class>
+		</pacakage>
+		<pacakage name="prodict.dump">
+			<class name="prodict.dump._load_logger" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.DataAdmin.Binding.DataDefinitionLoader" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="2342505"></class>
+			<class name="prodict.dump._load_options" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.DataAdmin.Binding.DataDefinitionOptions" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="2345651"></class>
+		</pacakage>
+		<pacakage name="prodict.misc">
+			<class name="prodict.misc._browse" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="prodict.misc._iwidgethandleræ" ImportedPackages="" isInsidePL="true" Offset="5857466"></class>
+			<class name="prodict.misc._iwidgethandler" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="true" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="6107578"></class>
+			<class name="prodict.misc._query" SourceFilePath="" RfilePath="C:/dlcv114/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="6146098"></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

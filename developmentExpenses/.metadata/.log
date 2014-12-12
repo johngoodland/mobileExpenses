@@ -1,0 +1,487 @@
+!SESSION 2014-09-03 09:46:58.982 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY org.eclipse.jface 2 0 2014-09-03 09:49:06.849
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:781)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:146)
+	at org.eclipse.ui.navigator.CommonViewer.add(CommonViewer.java:303)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider$2.run(ResourceExtensionContentProvider.java:267)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.runUpdates(ResourceExtensionContentProvider.java:306)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.access$1(ResourceExtensionContentProvider.java:303)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider$1.run(ResourceExtensionContentProvider.java:129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:123)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:97)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:144)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:233)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:197)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:286)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:118)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2283)
+	at org.eclipse.core.internal.resources.Project.touch(Project.java:1403)
+	at org.eclipse.wst.jsdt.internal.core.SetContainerOperation.execute(SetContainerOperation.java:122)
+	at org.eclipse.wst.jsdt.core.JavaScriptCore.setJsGlobalScopeContainer(JavaScriptCore.java:3901)
+	at org.eclipse.wst.jsdt.libraries.BasicBrowserLibraryJsGlobalScopeContainerInitializer.initialize(BasicBrowserLibraryJsGlobalScopeContainerInitializer.java:135)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2212)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.getJsGlobalScopeContainer(JavaModelManager.java:1537)
+	at org.eclipse.wst.jsdt.core.JavaScriptCore.getJsGlobalScopeContainer(JavaScriptCore.java:1319)
+	at org.eclipse.wst.jsdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2747)
+	at org.eclipse.wst.jsdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2026)
+	at org.eclipse.wst.jsdt.internal.core.ProjectReferenceChange.updateProjectReferencesIfNecessary(ProjectReferenceChange.java:41)
+	at org.eclipse.wst.jsdt.internal.core.ChangeClasspathOperation.classpathChanged(ChangeClasspathOperation.java:57)
+	at org.eclipse.wst.jsdt.internal.core.SetContainerOperation.execute(SetContainerOperation.java:117)
+	at org.eclipse.wst.jsdt.core.JavaScriptCore.setJsGlobalScopeContainer(JavaScriptCore.java:3901)
+	at org.eclipse.wst.jsdt.launching.JREContainerInitializer.initialize(JREContainerInitializer.java:48)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2212)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.getJsGlobalScopeContainer(JavaModelManager.java:1537)
+	at org.eclipse.wst.jsdt.core.JavaScriptCore.getJsGlobalScopeContainer(JavaScriptCore.java:1319)
+	at org.eclipse.wst.jsdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2747)
+	at org.eclipse.wst.jsdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2026)
+	at org.eclipse.wst.jsdt.internal.core.JavaProject.buildStructure(JavaProject.java:465)
+	at org.eclipse.wst.jsdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.wst.jsdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:538)
+	at org.eclipse.wst.jsdt.internal.core.JavaElement.getElementInfo(JavaElement.java:282)
+	at org.eclipse.wst.jsdt.internal.core.JavaElement.getElementInfo(JavaElement.java:268)
+	at org.eclipse.wst.jsdt.internal.core.JavaElement.getChildren(JavaElement.java:216)
+	at org.eclipse.wst.jsdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:1902)
+	at org.eclipse.wst.jsdt.internal.ui.packageview.PackageExplorerContentProvider.getPackageFragmentRoots(PackageExplorerContentProvider.java:651)
+	at org.eclipse.wst.jsdt.ui.StandardJavaScriptElementContentProvider.getChildren(StandardJavaScriptElementContentProvider.java:163)
+	at org.eclipse.wst.jsdt.internal.ui.packageview.PackageExplorerContentProvider.getChildren(PackageExplorerContentProvider.java:398)
+	at org.eclipse.wst.jsdt.internal.ui.navigator.JavaNavigatorContentProvider.getChildren(JavaNavigatorContentProvider.java:157)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:275)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:94)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:139)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:125)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1367)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:391)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:917)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:620)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$1.run(AbstractTreeViewer.java:818)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:797)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1770)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1075)
+	at com.openedge.pdt.text.explorer.OEExplorerContentProvider$1.run(OEExplorerContentProvider.java:193)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1028)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.createProjects(WizardProjectsImportPage.java:1286)
+	at org.eclipse.ui.wizards.datatransfer.ExternalProjectImportWizard.performFinish(ExternalProjectImportWizard.java:113)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:827)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:432)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:152)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:279)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:420)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:157)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SESSION 2014-09-03 11:08:11.268 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.openedge.pdt.core 4 20001 2014-09-03 11:09:23.441
+!MESSAGE Unable to find schema definition dsSecurityTokenService in schema file : 
+
+!ENTRY com.openedge.pdt.server 4 0 2014-09-03 11:39:51.757
+!MESSAGE The runtime 11.4 for OpenEdge server restmgr1 OE Web Server 11.4 at nrthora02 is not installed at C:\dlcv114
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-09-03 11:39:52.622
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.server.core.internal.Server$StopJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-09-03 11:39:52.622
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.server.core.internal.Server$StartJob
+!SESSION 2014-11-04 14:07:11.348 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-11-04 14:07:18.839
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2014-11-04 14:08:48.618 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-11-04 14:08:53.229
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.openedge.pdt.server 4 20001 2014-11-04 14:09:21.633
+!MESSAGE An internal error occurred
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to trim service because service is not available
+	at com.openedge.pdt.server.broker.publish.OpenEdgeServerPublisher.trimBroker(OpenEdgeServerPublisher.java:128)
+	at com.openedge.pdt.server.broker.publish.OpenEdgeServerPublisher.doPublishFinish(OpenEdgeServerPublisher.java:79)
+	at com.openedge.pdt.server.broker.publish.OpenEdgeServerPublisher.publishFinish(OpenEdgeServerPublisher.java:62)
+	at com.openedge.pdt.server.broker.OpenEdgeBrokerBehavior.publishFinish(OpenEdgeBrokerBehavior.java:73)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:1011)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3153)
+	at org.eclipse.wst.server.core.internal.Server.publish(Server.java:1326)
+	at com.openedge.pdt.server.broker.ProjectStateListener.changeServerStateAndFirePublish(ProjectStateListener.java:128)
+	at com.openedge.pdt.server.broker.ProjectStateListener.propathChanged(ProjectStateListener.java:110)
+	at com.openedge.pdt.project.AbstractPropathHandler.notifyPropathChangeListeners(AbstractPropathHandler.java:705)
+	at com.openedge.pdt.project.AbstractPropathHandler.updatePropath(AbstractPropathHandler.java:383)
+	at com.openedge.pdt.project.OEProject.startRuntimeClient(OEProject.java:265)
+	at com.openedge.pdt.project.RestartRuntimeJob.doStart(RestartRuntimeJob.java:161)
+	at com.openedge.pdt.project.RestartRuntimeJob.run(RestartRuntimeJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.openedge.pdt.server 4 0 2014-11-04 14:09:21.634
+!MESSAGE Failed to trim service because service is not available
+!SESSION 2014-11-04 15:01:25.895 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-11-04 15:01:45.020
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2014-11-04 15:03:21.461 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.progress.openedge.pdt.search 4 20001 2014-11-04 15:03:58.914
+!MESSAGE Failed to index the files, search may not be accurate
+!STACK 0
+org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another indexer component: C:\developmentExpenses\.metadata\.plugins\com.progress.openedge.pdt.search\ProgressIndexLocation\write.lock
+	at org.apache.lucene.store.NativeFSLock.release(NativeFSLockFactory.java:295)
+	at org.apache.lucene.index.IndexWriter.unlock(IndexWriter.java:4168)
+	at com.progress.openedge.pdt.search.index.OEIndexer.initWriter(OEIndexer.java:243)
+	at com.progress.openedge.pdt.search.index.OEIndexer.init(OEIndexer.java:195)
+	at com.progress.openedge.pdt.search.index.OEIndexer.<init>(OEIndexer.java:136)
+	at com.progress.openedge.pdt.search.index.OEIndexer.initIndexer(OEIndexer.java:122)
+	at com.progress.openedge.pdt.search.impl.OESearchEngine.<init>(OESearchEngine.java:36)
+	at com.progress.openedge.pdt.search.impl.OESearchEngine.initSearchEngine(OESearchEngine.java:42)
+	at com.progress.openedge.pdt.search.OESearchStartup.earlyStartup(OESearchStartup.java:19)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2551)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2014-11-04 15:03:59.005
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:111)
+	at org.apache.lucene.search.SearcherManager.<init>(SearcherManager.java:89)
+	at com.progress.openedge.pdt.search.index.OEIndexer.initSearcherManager(OEIndexer.java:257)
+	at com.progress.openedge.pdt.search.index.OEIndexer.init(OEIndexer.java:196)
+	at com.progress.openedge.pdt.search.index.OEIndexer.<init>(OEIndexer.java:136)
+	at com.progress.openedge.pdt.search.index.OEIndexer.initIndexer(OEIndexer.java:122)
+	at com.progress.openedge.pdt.search.impl.OESearchEngine.<init>(OESearchEngine.java:36)
+	at com.progress.openedge.pdt.search.impl.OESearchEngine.initSearchEngine(OESearchEngine.java:42)
+	at com.progress.openedge.pdt.search.OESearchStartup.earlyStartup(OESearchStartup.java:19)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2551)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui 4 4 2014-11-04 15:03:59.070
+!MESSAGE Unhandled Exception
+
+!ENTRY com.progress.openedge.pdt.search 4 0 2014-11-04 15:03:59.070
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.NullPointerException
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:111)
+	at org.apache.lucene.search.SearcherManager.<init>(SearcherManager.java:89)
+	at com.progress.openedge.pdt.search.index.OEIndexer.initSearcherManager(OEIndexer.java:257)
+	at com.progress.openedge.pdt.search.index.OEIndexer.init(OEIndexer.java:196)
+	at com.progress.openedge.pdt.search.index.OEIndexer.<init>(OEIndexer.java:136)
+	at com.progress.openedge.pdt.search.index.OEIndexer.initIndexer(OEIndexer.java:122)
+	at com.progress.openedge.pdt.search.impl.OESearchEngine.<init>(OESearchEngine.java:36)
+	at com.progress.openedge.pdt.search.impl.OESearchEngine.initSearchEngine(OESearchEngine.java:42)
+	at com.progress.openedge.pdt.search.OESearchStartup.earlyStartup(OESearchStartup.java:19)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2551)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.openedge.pdt.server 4 0 2014-11-04 15:14:51.806
+!MESSAGE Connection failed. Either the OpenEdge Explorer service is not running on localhost machine or the port number is wrong. Connection refused: connect
+!SESSION 2014-11-05 08:10:44.106 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.openedge.pdt.core 4 20001 2014-11-05 08:21:47.024
+!MESSAGE \\nrthqa04.coa.local\application\06\eliv5080\mb\resource.openedge.appserver.restbroker1.pf (Access is denied) 
+ java.io.FileOutputStream.open(Native Method) 
+ java.io.FileOutputStream.<init>(FileOutputStream.java:221) 
+ java.io.FileOutputStream.<init>(FileOutputStream.java:110) 
+ com.progress.fathom.api.ServerApplication.copyFileOnServer(ServerApplication.java:210) 
+ com.progress.fathom.api.ServerApplication.dbConnPFFile(ServerApplication.java:151) 
+ com.progress.fathom.api.ServerApplication.postAppServerDBConnPFFile(ServerApplication.java:80) 
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) 
+ sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) 
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) 
+ java.lang.reflect.Method.invoke(Method.java:606) 
+ com.progress.fathom.FathomAPI$InvokeAnnotated.invoke(FathomAPI.java:358) 
+ com.progress.fathom.FathomAPI$ABLMethodInfo.invoke(FathomAPI.java:754) 
+ com.progress.fathom.FathomAPI$MethodDelegate.invoke(FathomAPI.java:547) 
+ com.progress.fathom.FathomAPI.invokeAPI(FathomAPI.java:1006) 
+ com.progress.fathom.FathomAPIServlet.doPost(FathomAPIServlet.java:189) 
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:727) 
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:820) 
+ org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652) 
+ org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1317) 
+ org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:122) 
+ org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288) 
+ org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) 
+ org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) 
+ org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) 
+ org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) 
+ org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) 
+ org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) 
+ org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) 
+ org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) 
+ org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) 
+ org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) 
+ org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) 
+ org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) 
+ org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) 
+ org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) 
+ org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) 
+ org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) 
+ org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) 
+ org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) 
+ org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) 
+ org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) 
+ org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288) 
+ org.eclipse.jetty.servlets.UserAgentFilter.doFilter(UserAgentFilter.java:82) 
+ org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:256) 
+ org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288) 
+ com.progress.fathom.servlet.filters.P3PFilter.doFilter(P3PFilter.java:38) 
+ org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288) 
+ org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443) 
+ org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) 
+ org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556) 
+ org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227) 
+ org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044) 
+ org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372) 
+ org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189) 
+ org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978) 
+ org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) 
+ org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) 
+ org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) 
+ org.eclipse.jetty.server.Server.handle(Server.java:365) 
+ org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486) 
+ org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:944) 
+ org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1005) 
+ org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865) 
+ org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) 
+ org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) 
+ org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667) 
+ org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) 
+ org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) 
+ org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) 
+ java.lang.Thread.run(Thread.java:744) 
+ 
+
+!ENTRY com.openedge.pdt.server 4 0 2014-11-05 08:21:47.072
+!MESSAGE Could not create the .pf file for broker restbroker1 
+ Please check the error log for more details.
+!STACK 0
+com.openedge.pdt.explorer.model.ProgressExplorerException: Could not create the .pf file for broker restbroker1 
+ Please check the error log for more details.
+	at com.progress.openedge.pdt.explorer.oem.communication.response.ResponseValidator.validateResponse(ResponseValidator.java:83)
+	at com.progress.openedge.pdt.explorer.oem.communication.command.HTTPCommand.validateResponse(HTTPCommand.java:344)
+	at com.progress.openedge.pdt.explorer.oem.communication.command.HTTPCommand.doPost(HTTPCommand.java:320)
+	at com.progress.openedge.pdt.explorer.oem.communication.command.CreateDatabasePFCommand.execute(CreateDatabasePFCommand.java:55)
+	at com.progress.openedge.pdt.explorer.oem.communication.OEBroker.createDatabasePF(OEBroker.java:476)
+	at com.progress.openedge.pdt.explorer.oem.communication.HTTPExplorerConnection.createDatabasePF(HTTPExplorerConnection.java:799)
+	at com.progress.openedge.pdt.explorer.model.oem.service.ABLService.createDatabasePF(ABLService.java:240)
+	at com.openedge.pdt.server.launch.BrokerLaunchDelegate.updateDatabaseConnections(BrokerLaunchDelegate.java:799)
+	at com.openedge.pdt.server.launch.BrokerLaunchDelegate.updateBrokerProperties(BrokerLaunchDelegate.java:488)
+	at com.openedge.pdt.server.launch.BrokerDebugLaunchDelegate.updateBrokerProperties(BrokerDebugLaunchDelegate.java:322)
+	at com.openedge.pdt.server.appserver.launch.AppserverLaunchDelegate.updateBrokerProperties(AppserverLaunchDelegate.java:128)
+	at com.openedge.pdt.server.launch.BrokerLaunchDelegate.updateAndStartBroker(BrokerLaunchDelegate.java:308)
+	at com.openedge.pdt.server.launch.BrokerLaunchDelegate.launch(BrokerLaunchDelegate.java:122)
+	at com.openedge.pdt.server.launch.BrokerDebugLaunchDelegate.launch(BrokerDebugLaunchDelegate.java:81)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:700)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3537)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3473)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-11-12 09:21:39.558 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.openedge.pdt.core 4 20001 2014-11-12 09:22:41.663
+!MESSAGE Unable to find schema definition dsSecurityTokenService in schema file : 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-11-12 09:29:38.582
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2014-11-12 09:29:38.582
+!MESSAGE 
+!SUBENTRY 2 com.progress.openedge.pdt.rest 4 0 2014-11-12 09:29:38.582
+!MESSAGE Failed to deploy REST Service for: mobileexpenses
+REST request error: 
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2014-11-12 09:29:38.582
+!MESSAGE 
+!SUBENTRY 2 com.progress.openedge.pdt.rest 4 0 2014-11-12 09:29:38.582
+!MESSAGE Failed to deploy REST Service for: PingService
+REST request error: 
+
+!ENTRY com.openedge.pdt.core 4 20001 2014-11-12 09:30:03.679
+!MESSAGE Unable to find schema definition dsSecurityTokenService in schema file : 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-11-12 09:30:21.078
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2014-11-12 09:30:21.078
+!MESSAGE 
+!SUBENTRY 2 com.progress.openedge.pdt.rest 4 0 2014-11-12 09:30:21.078
+!MESSAGE Failed to deploy REST Service for: mobileexpenses
+REST request error: 
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2014-11-12 09:30:21.078
+!MESSAGE 
+!SUBENTRY 2 com.progress.openedge.pdt.rest 4 0 2014-11-12 09:30:21.078
+!MESSAGE Failed to deploy REST Service for: PingService
+REST request error: 
+
+!ENTRY com.openedge.pdt.server 4 0 2014-11-12 09:30:40.252
+!MESSAGE The runtime 11.4 for OpenEdge server restmgr1 OE Web Server 11.4 at nrthora02 is not installed at C:\dlcv114
+
+!ENTRY com.openedge.pdt.server 4 0 2014-11-12 09:30:40.254
+!MESSAGE The runtime 11.4 for OpenEdge server restbroker1 AppServer 11.4 at nrthora02 is not installed at C:\dlcv114
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-11-12 09:30:40.618
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.server.core.internal.Server$StopJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-11-12 09:30:40.619
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.server.core.internal.Server$StopJob
+!SESSION 2014-11-12 09:44:51.846 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-11-12 09:45:50.354
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2014-11-12 09:45:50.354
+!MESSAGE 
+!SUBENTRY 2 com.progress.openedge.pdt.rest 4 0 2014-11-12 09:45:50.354
+!MESSAGE Failed to deploy REST Service for: mobileexpenses
+REST request error: 
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2014-11-12 09:45:50.354
+!MESSAGE 
+!SUBENTRY 2 com.progress.openedge.pdt.rest 4 0 2014-11-12 09:45:50.354
+!MESSAGE Failed to deploy REST Service for: PingService
+REST request error: 
+
+!ENTRY com.openedge.pdt.core 4 20001 2014-11-12 09:46:13.498
+!MESSAGE Unable to find schema definition dsSecurityTokenService in schema file : 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-11-12 09:46:32.159
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2014-11-12 09:46:32.160
+!MESSAGE 
+!SUBENTRY 2 com.progress.openedge.pdt.rest 4 0 2014-11-12 09:46:32.160
+!MESSAGE Failed to deploy REST Service for: mobileexpenses
+REST request error: 
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2014-11-12 09:46:32.160
+!MESSAGE 
+!SUBENTRY 2 com.progress.openedge.pdt.rest 4 0 2014-11-12 09:46:32.160
+!MESSAGE Failed to deploy REST Service for: PingService
+REST request error: 
+
+!ENTRY com.openedge.pdt.core 4 20001 2014-11-12 09:51:32.625
+!MESSAGE Unable to find schema definition dsSecurityTokenService in schema file : 
+!SESSION 2014-12-01 13:59:13.052 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-12-01 13:59:22.897
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

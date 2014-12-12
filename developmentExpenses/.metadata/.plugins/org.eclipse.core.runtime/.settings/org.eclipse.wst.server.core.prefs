@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="OpenEdge AppServer 11.4" location\="C\:/dlcv114" name\="OpenEdge AppServer 11.4" runtime-type-id\="com.openedge.pdt.server.runtime" timestamp\="0"/>\r\n  <runtime id\="OE Web Server 11.4" location\="C\:/dlcv114" name\="OE Web Server 11.4" runtime-type-id\="com.progress.openedge.pdt.rest.runtime" timestamp\="0"/>\r\n  <runtime id\="OpenEdge WebSpeed 11.4" location\="C\:/dlcv114" name\="OpenEdge WebSpeed 11.4" runtime-type-id\="com.openedge.pdt.server.webspeed.runtime" timestamp\="0"/>\r\n</runtimes>\r\n

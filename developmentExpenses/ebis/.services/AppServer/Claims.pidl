@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pidl:description targetNamespace="urn:schemas-progress-com:bpm:appserverbinding:0001" serviceType="wsad:OEAppServerInvoke" xmlns:pidl="http://www.progress.com/caf/idl1.0" xmlns:java="http://www.progress.com/adapters/idl1.0/javatype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsad="urn:schemas-progress-com:bpm:appserverbinding:0001">
+<pidl:types>
+</pidl:types>
+  <pidl:interface name="com.progress.openedge.pdt.bpminterfaces">
+    <pidl:operation name="AppServer.Claims..CheckUpdates" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="pcLastGroup" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="pcLastType" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="filter" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="pcResult" req="false" type="java:String">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="AppServer.Claims..FetchLockStatus" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="pcFree" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="pcUsed" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="filter" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="pcResult" req="false" type="java:String">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="AppServer.Claims..ReadClaims" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="filter" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="eClaims" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="AppServer.Claims..TrackClaim" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="pcUserID" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="pcLineID" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="pcResult" req="false" type="java:String">
+    </pidl:output>
+    </pidl:operation>
+  </pidl:interface>
+  <pidl:binding name="com.progress.openedge.pdt.bpmbindings" interface="wsad:com.progress.openedge.pdt.bpminterfaces" type="urn:schemas-progress-com:bpm:appserverbinding:0001">
+<wsad:Operation isPersistent="false" useFullName="false" executionMode="11">
+  <wsad:Name>AppServer.Claims</wsad:Name>
+  <wsad:ProcPath/>
+  <wsad:ProPath/>
+  <wsad:ProcExt>cls</wsad:ProcExt>
+  <wsad:ProcDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="true" IsMappedToSubmit="false">
+    <wsad:Name>AppServer.Claims</wsad:Name>
+    <wsad:HelpString></wsad:HelpString>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>CheckUpdates</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>CheckUpdates</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>pcLastGroup</wsad:Name>
+          <wsad:OrigName>pcLastGroup</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>pcLastType</wsad:Name>
+          <wsad:OrigName>pcLastType</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>filter</wsad:Name>
+          <wsad:OrigName>filter</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="4" writeXmlBeforeImage="false">
+          <wsad:Name>pcResult</wsad:Name>
+          <wsad:OrigName>pcResult</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>FetchLockStatus</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>FetchLockStatus</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>pcFree</wsad:Name>
+          <wsad:OrigName>pcFree</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>pcUsed</wsad:Name>
+          <wsad:OrigName>pcUsed</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>filter</wsad:Name>
+          <wsad:OrigName>filter</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="4" writeXmlBeforeImage="false">
+          <wsad:Name>pcResult</wsad:Name>
+          <wsad:OrigName>pcResult</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>ReadClaims</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>ReadClaims</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>filter</wsad:Name>
+          <wsad:OrigName>filter</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>eClaims</wsad:Name>
+          <wsad:OrigName>eClaims</wsad:OrigName>
+          <wsad:Type>15</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+          <wsad:NamespaceUri xsi:nil="true"/>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseDate</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseGroup</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseType</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseReason</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseAmount</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseNotes</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseMilesClaim</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseMilesRate</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseFrom</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseTo</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseImage</wsad:FieldName>
+            <wsad:Type>19</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CLOB</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expense_ID</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseStatus</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseCharge</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expensePurpose</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseOOP</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expensePayee</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseNoPeople</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseNoNights</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseEveMeal</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseBreak</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseLunch</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseVisit</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseRound</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseVehicle</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseYTDMiles</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expensePeople</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseStoredJny</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseOOPFlag</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseAddType</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseAddChk</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseAddValue</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseAddResource</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseUserID</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseFromDate</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseToDate</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseUnitPrice</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseNoReceipt</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseGUID</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseUsed</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseTypeCode</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>expenseProject</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>TrackClaim</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>TrackClaim</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>pcUserID</wsad:Name>
+          <wsad:OrigName>pcUserID</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>pcLineID</wsad:Name>
+          <wsad:OrigName>pcLineID</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>pcResult</wsad:Name>
+          <wsad:OrigName>pcResult</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+  </wsad:ProcDetail>
+</wsad:Operation>
+  </pidl:binding>
+</pidl:description>
